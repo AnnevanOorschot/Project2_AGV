@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1774458007 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\fuse.c
+	<avr/io.h>
+
+1774468432 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\main.c
+	<avr/io.h>
+	"init_functions.h"
+	"sensor_lib.h"
+	"navigatie_lib.h"
+	"motor_lib.h"
+
+1774473578 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.h
+
+1774473578 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.c
+	<avr/io.h>
+	"init_functions.h"
+	"sensor_lib.h"
+	"navigatie_lib.h"
+	"motor_lib.h"
+
+1774467680 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\sensor_lib.h
+
+1774475060 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\navigatie_lib.h
+
+1774473604 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\motor_lib.h
+

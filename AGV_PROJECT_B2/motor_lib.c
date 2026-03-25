@@ -1,19 +1,18 @@
-/*
- */
-
 #include <avr/io.h>
 #include "init_functions.h"
 #include "sensor_lib.h"
 #include "navigatie_lib.h"
 #include "motor_lib.h"
 
-int main(void)
+
+void motor_R(int factor)
 {
-
-    // Insert code
-    init_function();
-    while(1)
-    ;
-
-    return 0;
+    OC5C = factor*PWM
 }
+
+void motor_L(int factor)
+{
+    OC5A = factor*PWM
+}
+
+motor
