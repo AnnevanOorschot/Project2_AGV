@@ -7,12 +7,12 @@
 
 void motor_R(int factor)
 {
-    OC5C = factor*PWM
+    OCR5C = factor*PWM
 }
 
 void motor_L(int factor)
 {
-    OC5A = factor*PWM
+    OCR5A = factor*PWM
 }
 
 motor

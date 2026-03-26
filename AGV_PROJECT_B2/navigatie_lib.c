@@ -11,15 +11,15 @@ int diffUltrasoon(void)
 
 float percentageSteering_R(int diffAfstand)
 {
-    static float helftPadBreette = HALF_PAD
-    float percentageAfwijking = (helftPadBreette - diffAfstand)/helftPadBreette;
+    static float helftPadBreedte = HALF_PAD
+    float percentageAfwijking = (helftPadBreedte - diffAfstand)/helftPadBreedte;
     return percentageAfwijking;
 }
 
 float percentageSteering_L(int diffAfstand)
 {
-    static float helftPadBreette = HALF_PAD
-    float percentageAfwijking = (helftPadBreette + diffAfstand)/helftPadBreette;
+    static float helftPadBreedte = HALF_PAD
+    float percentageAfwijking = (helftPadBreedte + diffAfstand)/helftPadBreedte;
     return percentageAfwijking;
 }
 
