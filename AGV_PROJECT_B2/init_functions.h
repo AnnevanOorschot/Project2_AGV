@@ -4,19 +4,19 @@
 // ULTRASOON //
 #define ULTRASOON_ECHO_R            PC7
 #define ULTRASOON_ECHO_R_DDR        DDRC
-#define ULTRASOON_ECHO_R_PORT       PORTC
+#define ULTRASOON_ECHO_R_PIN        PINC
 
 #define ULTRASOON_TRIGGER_R         PC6
 #define ULTRASOON_TRIGGER_R_DDR     DDRC
-#define ULTRASOON_TRIGGER_R_PIN     PINC
+#define ULTRASOON_TRIGGER_R_PORT    PORTC
 
 #define ULTRASOON_ECHO_L            PA6
 #define ULTRASOON_ECHO_L_DDR        DDRA
-#define ULTRASOON_ECHO_L_PORT       PORTA
+#define ULTRASOON_ECHO_L_PIN        PINA
 
 #define ULTRASOON_TRIGGER_L         PA7
 #define ULTRASOON_TRIGGER_L_DDR     DDRA
-#define ULTRASOON_TRIGGER_L_PIN     PINA
+#define ULTRASOON_TRIGGER_L_PORT    PORTA
 
 // INFRAROOD //
 #define INFRAROOD_AGV_R             PD2
@@ -111,6 +111,7 @@ void init_led(void);
 void init_h_brug_dual(void);
 void init_noodstop(void);
 void init_function(void);
+void init_timer(void);
 
 
 #endif // INIT_FUNCTIONS_H_INCLUDED

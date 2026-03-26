@@ -7,17 +7,17 @@
 
 void init_ultrasoon_sensor(void)
 {
-    //ULTRASOON Echo als output configureren
-    ULTRASOON_ECHO_R_DDR |= (1 << ULTRASOON_ECHO_R);
-    ULTRASOON_ECHO_L_DDR |= (1 << ULTRASOON_ECHO_L);
-
-    //ULTRASOON Echo laagzetten
+    //ULTRASOON Echo als INPUT configureren
     ULTRASOON_ECHO_R_DDR &= ~(1 << ULTRASOON_ECHO_R);
     ULTRASOON_ECHO_L_DDR &= ~(1 << ULTRASOON_ECHO_L);
 
-    //ULTRASOON Trigger als input configureren
-    ULTRASOON_TRIGGER_R_DDR &= ~(1 << ULTRASOON_TRIGGER_R);
-    ULTRASOON_TRIGGER_L_DDR &= ~(1 << ULTRASOON_TRIGGER_L);
+    //ULTRASOON Trigger als OUTPUT configureren
+    ULTRASOON_TRIGGER_R_DDR |= (1 << ULTRASOON_TRIGGER_R);
+    ULTRASOON_TRIGGER_L_DDR |= (1 << ULTRASOON_TRIGGER_L);
+
+    //ULTRASOON Echo laagzetten
+    ULTRASOON_TRIGGER_R_PORT &= ~(1 << ULTRASOON_ECHO_R);
+    ULTRASOON_TRIGGER_L_PORT &= ~(1 << ULTRASOON_ECHO_L);
 }
 
 void init_infrarood_sensor(void)

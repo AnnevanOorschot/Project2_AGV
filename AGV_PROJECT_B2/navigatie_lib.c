@@ -4,25 +4,26 @@
 #include "navigatie_lib.h"
 #include "motor_lib.h"
 
-int diffUltrasoon(void)
-{
-    return (ultrasoonAfstand_R() - ultrasoonAfstand_L());
-}
+//int diffUltrasoon(void)
+//{
+//    return (ultrasoonAfstand_R() - ultrasoonAfstand_L());
+//}
 
-float percentageSteering_R(int diffAfstand)
+float percentageSteering_R(void) //int diffAfstand
 {
-    static float helftPadBreedte = HALF_PAD
-    float percentageAfwijking = (helftPadBreedte - diffAfstand)/helftPadBreedte;
+    static float helftPadBreedte = HALF_PAD;
+    float diffUltrasoon = (ultrasoonAfstand_R() - ultrasoonAfstand_L());
+    float percentageAfwijking = (helftPadBreedte - diffUltrasoon)/helftPadBreedte;
     return percentageAfwijking;
 }
 
-float percentageSteering_L(int diffAfstand)
+float percentageSteering_L(void) //int diffAfstand
 {
-    static float helftPadBreedte = HALF_PAD
-    float percentageAfwijking = (helftPadBreedte + diffAfstand)/helftPadBreedte;
+    static float helftPadBreedte = HALF_PAD;
+    float diffUltrasoon = (ultrasoonAfstand_R() - ultrasoonAfstand_L());
+    float percentageAfwijking = (helftPadBreedte + diffUltrasoon)/helftPadBreedte;
     return percentageAfwijking;
 }
-
 
 void padNavigeren(void)
 {

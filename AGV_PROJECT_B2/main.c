@@ -13,7 +13,8 @@ int main(void)
     // Insert code
     init_function();
     while(1)
-    ;
-
+    {
+        padNavigeren();
+    }
     return 0;
 }
