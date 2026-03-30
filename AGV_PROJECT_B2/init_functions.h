@@ -39,22 +39,32 @@
 #define KNOP_1                      PA0
 #define KNOP_1_DDR                  DDRA
 #define KNOP_1_PIN                  PINA
+#define KNOP_1_PORT                 PORTA
 
 #define KNOP_2                      PA1
 #define KNOP_2_DDR                  DDRA
 #define KNOP_2_PIN                  PINA
+#define KNOP_2_PORT                 PORTA
 
 #define KNOP_3                      PA2
 #define KNOP_3_DDR                  DDRA
 #define KNOP_3_PIN                  PINA
+#define KNOP_3_PORT                 PORTA
 
 #define KNOP_4                      PA3
 #define KNOP_4_DDR                  DDRA
 #define KNOP_4_PIN                  PINA
+#define KNOP_4_PORT                 PORTA
 
 #define KNOP_5                      PA4
 #define KNOP_5_DDR                  DDRA
 #define KNOP_5_PIN                  PINA
+#define KNOP_5_PORT                 PORTA
+
+#define KNOP_6                      PA5
+#define KNOP_6_DDR                  DDRA
+#define KNOP_6_PIN                  PINA
+#define KNOP_6_PORT                 PORTA
 
 // LED //
 #define LED_1                       PB2

@@ -12,7 +12,7 @@
 float percentageSteering_R(void) //int diffAfstand
 {
     static float helftPadBreedte = HALF_PAD;
-    float diffUltrasoon = (ultrasoonAfstand_R() - ultrasoonAfstand_L());
+    int diffUltrasoon = (ultrasoonAfstand_R() - ultrasoonAfstand_L());
     float percentageAfwijking = (helftPadBreedte - diffUltrasoon)/helftPadBreedte;
     return percentageAfwijking;
 }
@@ -20,17 +20,23 @@ float percentageSteering_R(void) //int diffAfstand
 float percentageSteering_L(void) //int diffAfstand
 {
     static float helftPadBreedte = HALF_PAD;
-    float diffUltrasoon = (ultrasoonAfstand_R() - ultrasoonAfstand_L());
+    int diffUltrasoon = (ultrasoonAfstand_R() - ultrasoonAfstand_L());
     float percentageAfwijking = (helftPadBreedte + diffUltrasoon)/helftPadBreedte;
     return percentageAfwijking;
 }
 
 void padNavigeren(void)
 {
-    while (ultrasoonAfstand_R() < 100 || ultrasoonAfstand_L() < 100)
+    int wandenWeg = 0;
+    while (wandenWeg >= 5)
     {
-        motor_R(percentageSteering_R());
-        motor_L(percentageSteering_L());
+        if (ultrasoonAfstand_R() < 100 && ultrasoonAfstand_L() < 100) wandenWeg++;
+        else
+        {
+            wandenWeg = 0;
+            motor_R(percentageSteering_R());
+            motor_L(percentageSteering_L());
+        }
     }
 }
 

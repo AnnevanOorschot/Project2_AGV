@@ -5,12 +5,16 @@
 #include "motor_lib.h"
 
 
-void motor_R(int factor)
+void motor_R(float factor)
 {
-    OCR5C = factor*PWM;
+    int motor_PWM_R = PWM * factor;
+    if (motor_PWM_R >= TOP_VALUE) motor_PWM_R = TOP_VALUE;
+    OCR5C = motor_PWM_R;
 }
 
-void motor_L(int factor)
+void motor_L(float factor)
 {
-    OCR5A = factor*PWM;
+    int motor_PWM_L = PWM * factor;
+    if (motor_PWM_L >= TOP_VALUE) motor_PWM_L = TOP_VALUE;
+    OCR5A = motor_PWM_L;
 }

@@ -39,6 +39,15 @@ void init_knopjes(void)
     KNOP_3_DDR &= ~(1 << KNOP_3);
     KNOP_4_DDR &= ~(1 << KNOP_4);
     KNOP_5_DDR &= ~(1 << KNOP_5);
+    KNOP_6_DDR &= ~(1 << KNOP_6);
+
+    //KNOPJES pull-up aanzetten
+    KNOP_1_PORT &= ~(1 << KNOP_1);
+    KNOP_2_PORT &= ~(1 << KNOP_2);
+    KNOP_3_PORT &= ~(1 << KNOP_3);
+    KNOP_4_PORT &= ~(1 << KNOP_4);
+    KNOP_5_PORT &= ~(1 << KNOP_5);
+    KNOP_6_PORT &= ~(1 << KNOP_6);
 }
 
 void init_led(void)
@@ -93,4 +102,5 @@ void init_function(void)
     init_led();
     init_h_brug_dual();
     init_noodstop();
+    init_timer();
 }

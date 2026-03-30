@@ -62,25 +62,20 @@
 		</Unit>
 		<Unit filename="motor_lib.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="motor_lib.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="motor_lib.h" />
 		<Unit filename="navigatie_lib.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="navigatie_lib.h">
-			<Option target="&lt;{~None~}&gt;" />
+		<Unit filename="navigatie_lib.h" />
+		<Unit filename="programma_keuze.c">
+			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="programma_keuze.h" />
 		<Unit filename="sensor_lib.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="sensor_lib.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="sensor_lib.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
