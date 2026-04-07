@@ -6,7 +6,7 @@
 #include "motor_lib.h"
 #include "programma_keuze.h"
 
-float ultrasoonAfstand_R(void)
+uint16_t ultrasoonAfstand_R(void)
 {
     // 1. Trigger
     ULTRASOON_TRIGGER_R_PORT &= ~(1 << ULTRASOON_TRIGGER_R);
@@ -33,7 +33,7 @@ float ultrasoonAfstand_R(void)
     return distance;
 }
 
-float ultrasoonAfstand_L(void)
+uint16_t ultrasoonAfstand_L(void)
 {
     // 1. Trigger
     ULTRASOON_TRIGGER_L_PORT &= ~(1 << ULTRASOON_TRIGGER_L); //_delay_us(2);

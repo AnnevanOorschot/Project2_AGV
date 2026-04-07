@@ -80,38 +80,44 @@
 #define LED_3_PORT                  PORTB
 
 // H-BRUG //
-#define PWM_R                       PL5
-#define PWM_R_DDR                   DDRL
-#define PWM_R_PORT                  PORTL
+#define PWM_R                       PH3     // IPV PL5 --> PH3 voor timer 4
+#define PWM_R_DDR                   DDRH
+#define PWM_R_PORT                  PORTH
 
 #define PWM_L                       PL3
 #define PWM_L_DDR                   DDRL
 #define PWM_L_PORT                  PORTL
 
-#define IN_1                        PL6
-#define IN_1_DDR                    DDRL
-#define IN_1_PIN                    PORTL
+#define PWM_IN_1                    PL6
+#define PWM_IN_1_DDR                DDRL
+#define PWM_IN_1_PORT               PORTL
 
-#define IN_2                        PL4
-#define IN_2_DDR                    DDRL
-#define IN_2_PIN                    PORTL
+#define PWM_IN_2                    PL4
+#define PWM_IN_2_DDR                DDRL
+#define PWM_IN_2_PORT               PORTL
 
-#define IN_3                        PL2
-#define IN_3_DDR                    DDRL
-#define IN_3_PIN                    PORTL
+#define PWM_IN_3                    PL2
+#define PWM_IN_3_DDR                DDRL
+#define PWM_IN_3_PORT               PORTL
 
-#define IN_4                        PL0
-#define IN_4_DDR                    DDRL
-#define IN_4_PIN                    PORTL
+#define PWM_IN_4                    PL0
+#define PWM_IN_4_DDR                DDRL
+#define PWM_IN_4_PORT               PORTL
 
 // NOODSTOP //
 #define NOODSTOP                    PD0
 #define NOODSTOP_DDR                DDRD
 #define NOODSTOP_PIN                PIND
 
+// TEST FUNC //
+#define SDI_BIT     PH5    // Pin 8
+#define SFTCLK_BIT  PH4    // Pin 7
+#define LCHCLK_BIT  PG5    // Pin 4
+
 // OVERIG //
 
 #define TOP_VALUE                   40000UL
+#define RESET_VALUE_TIMER1          3036UL
 
 // FUNCTIES //
 void init_ultrasoon_sensor(void);
@@ -121,7 +127,7 @@ void init_led(void);
 void init_h_brug_dual(void);
 void init_noodstop(void);
 void init_function(void);
-void init_timer(void);
-
+void init_timer_PWM(void);
+void init_timer();
 
 #endif // INIT_FUNCTIONS_H_INCLUDED

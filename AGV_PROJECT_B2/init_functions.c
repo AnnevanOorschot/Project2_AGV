@@ -73,11 +73,17 @@ void init_h_brug_dual(void)
     PWM_R_PORT &= ~(1 << PWM_R);
     PWM_L_PORT &= ~(1 << PWM_L);
 
-    //IN als input
-    IN_1_DDR &= ~(1 << IN_1);
-    IN_2_DDR &= ~(1 << IN_2);
-    IN_3_DDR &= ~(1 << IN_3);
-    IN_4_DDR &= ~(1 << IN_4);
+    //IN als output
+    PWM_IN_1_DDR |= (1 << PWM_IN_1); // IN 1 --> motor A = rechts
+    PWM_IN_2_DDR |= (1 << PWM_IN_2); // IN 2 --> motor A = rechts
+    PWM_IN_3_DDR |= (1 << PWM_IN_3); // IN 3 --> motor B = links
+    PWM_IN_4_DDR |= (1 << PWM_IN_4); // IN 4 --> motor B = links
+
+    //IN laagzetten
+    PWM_IN_1_PORT &= ~(1 << PWM_IN_1); // IN 1 --> motor A = rechts
+    PWM_IN_2_PORT &= ~(1 << PWM_IN_2); // IN 2 --> motor A = rechts
+    PWM_IN_3_PORT &= ~(1 << PWM_IN_3); // IN 3 --> motor B = links
+    PWM_IN_4_PORT &= ~(1 << PWM_IN_4); // IN 4 --> motor B = links
 }
 
 void init_noodstop(void)
@@ -86,12 +92,26 @@ void init_noodstop(void)
     NOODSTOP_DDR &= ~(1 << NOODSTOP);
 }
 
-void init_timer(void)
+void init_timer_PWM(void)
 {
     ICR5 = TOP_VALUE;
 
     TCCR5A = (1 << WGM51) | (0 << WGM50) | (1 << COM5A1) | (0 << COM5A0);
     TCCR5B = (1 << WGM53) | (1 << WGM52) | (0 << CS52) | (0 << CS51) | (1 << CS50);
+
+    ICR4 = TOP_VALUE;
+
+    TCCR4A = (1 << WGM41) | (0 << WGM40) | (1 << COM4A1) | (0 << COM4A0);
+    TCCR4B = (1 << WGM43) | (1 << WGM42) | (0 << CS42) | (0 << CS41) | (1 << CS40);
+}
+
+void init_timer(void)
+{
+    TCNT1 = RESET_VALUE_TIMER1;
+    TCCR1A = 0;
+    TCCR1B = (1 << CS12)|(0 << CS11)|(0 << CS10);
+
+
 }
 
 void init_function(void)
@@ -102,5 +122,6 @@ void init_function(void)
     init_led();
     init_h_brug_dual();
     init_noodstop();
+    init_timer_PWM();
     init_timer();
 }
