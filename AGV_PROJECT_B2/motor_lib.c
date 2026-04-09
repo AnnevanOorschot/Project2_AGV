@@ -3,7 +3,7 @@
 #include "sensor_lib.h"
 #include "navigatie_lib.h"
 #include "motor_lib.h"
-
+#include "module.h"
 
 void motor_R(float factor)
 {
@@ -11,6 +11,8 @@ void motor_R(float factor)
     if (motor_PWM_R >= TOP_VALUE) motor_PWM_R = TOP_VALUE;
     OCR4A = motor_PWM_R;
 }
+
+/// IFSTATEMENT VOOR PWM 0 EN 100
 
 void motor_L(float factor)
 {
@@ -72,9 +74,4 @@ void motor_config(int mode, int kant)
             }
         }
     }
-}
-
-void keren(int richting)
-{
-
 }

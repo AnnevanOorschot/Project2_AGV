@@ -5,7 +5,7 @@
 #define OVERFLOW  40000
 
 
-enum programma {rechtdoor, keren_R, keren_L, pakketDetectie, parkour};
+enum programma {startUp, rechtdoor, keren_R, keren_L, pakketTellen, parkour};
 
 int programma_keuze(void);
 

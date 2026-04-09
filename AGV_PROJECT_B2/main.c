@@ -8,66 +8,71 @@
 #include "navigatie_lib.h"
 #include "motor_lib.h"
 #include "programma_keuze.h"
+#include "test_func.h"
+#include "module.h"
 
-//ISR(TIMER1_OVF_vect)
-//{
-//    TCNT1 = 34286;
-//}
+#define RECHTDOOR   1
+#define KERENR  2
+#define KERENL  3
+#define PAKKETDETECTIE  4
+#define PARKOUR 5
+#define STARTUP 0
+
+
 
 int main(void)
 {
-
-    // Insert code
     init_function();
-    motor_L(1.0);
-    motor_R(1.0);
-    motor_config(VOORUIT,LINKS);
-    int test_count = 0;
-    int temp = 0;
-    int count2 = 0;
 
 
-    while(1)
-    {
-        /*LED_2_PORT |= (1 << LED_2);
-            count2++;
-        if (TIFR1 & (1 << TOV1))
-        {
-            if (++test_count == 1)
+    padNavigeren(RECHTS);
+
+    /*switch(programma_keuze())
+        {RECHTS
+        case rechtdoor:
             {
-                LED_3_PORT |= (1 << LED_3);
-                TIFR1 = (1 << TOV1);
+                padNavigeren(RECHTS);
                 break;
             }
-            TIFR1 = (1 << TOV1);
-        }
-            print_waarde(count2);*/
 
+        case keren_R:
+            {
 
-    }
+                padNavigeren(RECHTS);
+                keren(RECHTS);
+                padNavigeren(LINKS);
+                break;
+            }
+        case keren_L:
+            {
+                padNavigeren(LINKS);
+                keren(LINKS);
+                padNavigeren(RECHTS);
+                break;
+            }
+        case pakketTellen:
+            {
+                pakketDetectie(SET, 5);
+                padNavigeren(RECHTS);
+                break;
+            }
+        case parkour:
+            {
+                pakketDetectie(SET, 15);
+                padNavigeren(RECHTS);
+                keren(RECHTS);
+                padNavigeren(LINKS);
+                keren(LINKS);
+                padNavigeren(RECHTS);
+                break;
+            }
+        }*/
+
     while(1)
     {
-        while(temp == 0)
-        {
-            print_waarde(test_count);
-            if (TIFR1 & (1 << TOV1))
-            {
-                temp = 1;
-                LED_2_PORT &= ~(1 << LED_2);
-                TIFR1 = (1 << TOV1);
-            }
-        }
-        while(temp == 1)
-        {
-            print_waarde(count2);
-            if (TIFR1 & (1 << TOV1))
-            {
-                temp = 0;
-                LED_2_PORT |= (1 << LED_2);
-                TIFR1 = (1 << TOV1);
-            }
-        }
+
     }
+
     return 0;
 }
 
@@ -76,36 +81,6 @@ int main(void)
 
 void OPSLAG(void)
 {
-    /*switch (programma)
-        {
-        case rechtdoor:
-            {
-                //volgorde van toestanden ...
-                break;
-            }
-
-        case keren_R:
-            {
-                //volgorde van toestanden ...
-                break;
-            }
-        case keren_L:
-            {
-                //volgorde van toestanden ...
-                break;
-            }
-        case pakketDetectie:
-            {
-                //volgorde van toestanden ...
-                break;
-            }
-        case parkour:
-            {
-                //volgorde van toestanden ...
-                break;
-            }
-        }*/
-
         /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// ///
 
         //padNavigeren();
@@ -118,5 +93,49 @@ void OPSLAG(void)
             test_tick = 0;
         }
 
-        print_waarde(diffAfstand);*/
+        print_waarde(diffAfstand);
+
+        while(1)
+    {
+        LED_2_PORT |= (1 << LED_2);
+            count2++;
+        if (TIFR1 & (1 << TOV1))
+        {
+            if (++test_count == 100)
+            {
+                PORTB &= ~(1 << PB7);
+                PORTB &= ~(1 << PB6);
+                PORTB &= ~(1 << PB5);
+                PORTB &= ~(1 << PB4);
+                TIFR1 = (1 << TOV1);
+                break;
+            }
+            TCNT1 = RESET_VALUE_TIMER1;
+            TIFR1 = (1 << TOV1);
+        }
+            print_waarde(count2);
+    }
+    while(1)
+    {
+        while(temp == 0)
+        {
+            print_waarde(test_count);
+            if (TIFR1 & (1 << TOV1))
+            {
+                temp = 1;
+                //LED_2_PORT &= ~(1 << LED_2);
+                TIFR1 = (1 << TOV1);
+            }
+        }
+        while(temp == 1)
+        {
+            print_waarde(count2);
+            if (TIFR1 & (1 << TOV1))
+            {
+                temp = 0;
+                //LED_2_PORT |= (1 << LED_2);
+                TIFR1 = (1 << TOV1);
+            }
+        }
+    }*/
 }

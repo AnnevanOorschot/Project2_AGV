@@ -42,12 +42,12 @@ void init_knopjes(void)
     KNOP_6_DDR &= ~(1 << KNOP_6);
 
     //KNOPJES pull-up aanzetten
-    KNOP_1_PORT &= ~(1 << KNOP_1);
-    KNOP_2_PORT &= ~(1 << KNOP_2);
-    KNOP_3_PORT &= ~(1 << KNOP_3);
-    KNOP_4_PORT &= ~(1 << KNOP_4);
-    KNOP_5_PORT &= ~(1 << KNOP_5);
-    KNOP_6_PORT &= ~(1 << KNOP_6);
+    KNOP_1_PORT |= (1 << KNOP_1);
+    KNOP_2_PORT |= (1 << KNOP_2);
+    KNOP_3_PORT |= (1 << KNOP_3);
+    KNOP_4_PORT |= (1 << KNOP_4);
+    KNOP_5_PORT |= (1 << KNOP_5);
+    KNOP_6_PORT |= (1 << KNOP_6);
 }
 
 void init_led(void)
@@ -58,9 +58,9 @@ void init_led(void)
     LED_3_DDR |= (1 << LED_3);
 
     //LED laag zetten
-    LED_1_PORT &= ~(1 << LED_1);
-    LED_2_PORT &= ~(1 << LED_2);
-    LED_3_PORT &= ~(1 << LED_3);
+    LED_1_PORT |= (1 << LED_1);
+    LED_2_PORT |= (1 << LED_2);
+    LED_3_PORT |= (1 << LED_3);
 }
 
 void init_h_brug_dual(void)
@@ -97,21 +97,29 @@ void init_timer_PWM(void)
     ICR5 = TOP_VALUE;
 
     TCCR5A = (1 << WGM51) | (0 << WGM50) | (1 << COM5A1) | (0 << COM5A0);
-    TCCR5B = (1 << WGM53) | (1 << WGM52) | (0 << CS52) | (0 << CS51) | (1 << CS50);
+    TCCR5B = (1 << WGM53) | (1 << WGM52) | (0 << CS52) | (1 << CS51) | (0 << CS50);
 
     ICR4 = TOP_VALUE;
 
     TCCR4A = (1 << WGM41) | (0 << WGM40) | (1 << COM4A1) | (0 << COM4A0);
-    TCCR4B = (1 << WGM43) | (1 << WGM42) | (0 << CS42) | (0 << CS41) | (1 << CS40);
+    TCCR4B = (1 << WGM43) | (1 << WGM42) | (0 << CS42) | (1 << CS41) | (0 << CS40);
 }
 
-void init_timer(void)
+void init_test(void)
 {
-    TCNT1 = RESET_VALUE_TIMER1;
-    TCCR1A = 0;
-    TCCR1B = (1 << CS12)|(0 << CS11)|(0 << CS10);
+    // Display pinnen als output
+    DDRH |= (1 << SDI_BIT) | (1 << SFTCLK_BIT);
+    DDRG |= (1 << LCHCLK_BIT);
 
+    // Timers en poorten resetten
+    PORTG &= ~(1 << LCHCLK_BIT);
+}
 
+void init_timer(void) // timer 0.1 sec
+{
+    TCNT2 = RESET_VALUE_TIMER1;
+    TCCR2A = 0;
+    TCCR2B = (1 << CS12)|(0 << CS11)|(0 << CS10);
 }
 
 void init_function(void)
@@ -124,4 +132,5 @@ void init_function(void)
     init_noodstop();
     init_timer_PWM();
     init_timer();
+    init_test();
 }

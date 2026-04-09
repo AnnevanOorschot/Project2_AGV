@@ -117,7 +117,7 @@
 // OVERIG //
 
 #define TOP_VALUE                   40000UL
-#define RESET_VALUE_TIMER1          3036UL
+#define RESET_VALUE_TIMER1          59286UL
 
 // FUNCTIES //
 void init_ultrasoon_sensor(void);
@@ -129,5 +129,7 @@ void init_noodstop(void);
 void init_function(void);
 void init_timer_PWM(void);
 void init_timer();
+void init_test(void);
+
 
 #endif // INIT_FUNCTIONS_H_INCLUDED
