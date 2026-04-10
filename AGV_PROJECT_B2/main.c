@@ -23,12 +23,16 @@
 int main(void)
 {
     init_function();
+    INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
+    INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
+    blokjes_stop(5, 1);
 
 
-    padNavigeren(RECHTS);
 
-    /*switch(programma_keuze())
-        {RECHTS
+    //padNavigeren(RECHTS);
+    /*
+    switch(programma_keuze())
+        {//RECHTS
         case rechtdoor:
             {
                 padNavigeren(RECHTS);
@@ -52,13 +56,19 @@ int main(void)
             }
         case pakketTellen:
             {
-                pakketDetectie(SET, 5);
+                INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
+                INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
+                blokjes_stop(5, 1);
+                //pakketDetectie(SET, 5);
                 padNavigeren(RECHTS);
                 break;
             }
         case parkour:
             {
-                pakketDetectie(SET, 15);
+                INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
+                INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
+                blokjes_stop(15,1);
+                //pakketDetectie(SET, 15);
                 padNavigeren(RECHTS);
                 keren(RECHTS);
                 padNavigeren(LINKS);
@@ -66,8 +76,8 @@ int main(void)
                 padNavigeren(RECHTS);
                 break;
             }
-        }*/
-
+        }
+    */
     while(1)
     {
 
@@ -97,7 +107,7 @@ void OPSLAG(void)
 
         while(1)
     {
-        LED_2_PORT |= (1 << LED_2);
+        LED_1_PORT |= (1 << LED_1);
             count2++;
         if (TIFR1 & (1 << TOV1))
         {
@@ -123,7 +133,7 @@ void OPSLAG(void)
             if (TIFR1 & (1 << TOV1))
             {
                 temp = 1;
-                //LED_2_PORT &= ~(1 << LED_2);
+                //LED_1_PORT &= ~(1 << LED_1);
                 TIFR1 = (1 << TOV1);
             }
         }
@@ -133,7 +143,7 @@ void OPSLAG(void)
             if (TIFR1 & (1 << TOV1))
             {
                 temp = 0;
-                //LED_2_PORT |= (1 << LED_2);
+                //LED_1_PORT |= (1 << LED_1);
                 TIFR1 = (1 << TOV1);
             }
         }
