@@ -2,6 +2,7 @@
  */
 
 #include <avr/io.h>
+#include <avr/interrupt.h>
 #include <util/delay.h>
 #include "init_functions.h"
 #include "sensor_lib.h"
@@ -23,12 +24,9 @@
 int main(void)
 {
     init_function();
-    INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
-    INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
     blokjes_stop(5, 1);
-
-
-
+    INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
+    INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
     //padNavigeren(RECHTS);
     /*
     switch(programma_keuze())

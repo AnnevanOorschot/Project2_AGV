@@ -87,8 +87,9 @@
 1775734289 source:c:\users\annev\documents\github\project2_agv\agv_project_b2\fuse.c
 	<avr/io.h>
 
-1775822259 source:c:\users\annev\documents\github\project2_agv\agv_project_b2\main.c
+1775830119 source:c:\users\annev\documents\github\project2_agv\agv_project_b2\main.c
 	<avr/io.h>
+	<avr/interrupt.h>
 	<util/delay.h>
 	"init_functions.h"
 	"sensor_lib.h"
@@ -112,7 +113,7 @@
 
 1775821690 c:\users\annev\documents\github\project2_agv\agv_project_b2\module.h
 
-1775822119 source:c:\users\annev\documents\github\project2_agv\agv_project_b2\module.c
+1775830582 source:c:\users\annev\documents\github\project2_agv\agv_project_b2\module.c
 	<avr/io.h>
 	<avr/interrupt.h>
 	<util/delay.h>
@@ -163,7 +164,7 @@
 	"test_func.h"
 	"init_functions.h"
 
-1775822784 source:c:\users\annev\documents\github\project2_agv\agv_project_b2\init_functions.c
+1775830119 source:c:\users\annev\documents\github\project2_agv\agv_project_b2\init_functions.c
 	<avr/io.h>
 	<avr/interrupt.h>
 	<util/delay.h>

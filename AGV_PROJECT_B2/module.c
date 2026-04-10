@@ -67,7 +67,7 @@ void tm1637_showNumber(uint16_t num) {
 }
 
 int blokjes_gedetecteerd (void) {
-    static int aantal = 0;
+    static int aantal = -2; //compenseert voor valse true bij opstarten
     aantal++;
     return (aantal);
 }
@@ -85,38 +85,41 @@ int blokjes_stop(int taak, int instel) {
 ISR(INT4_vect) {
     int blokjes_stoppen = blokjes_stop(0,0);
     int aantal_blokjes = blokjes_gedetecteerd(); // rekening houden met dat ie aan het begin meteen dit gaat doen!
-    tm1637_showNumber(aantal_blokjes);
-    motor_R(0);
-    motor_L(0);
-    volatile int teller = 0;
-    if (aantal_blokjes >= blokjes_stoppen) {
-        TCNT0 = 0;
-        while(1) {
-            while (teller < cycles_per_seconde) {
+    //if (aantal_blokjes > 0) {
+        tm1637_showNumber(aantal_blokjes);
+        motor_R(0);
+        motor_L(0);
+        volatile int teller = 0;
+        if (aantal_blokjes >= blokjes_stoppen) {
+            TCNT0 = 0;
+            while(1) {
+                while (teller < cycles_per_seconde) {
+                    if ((TIFR0 & (1 << TOV0))!= 0) {
+                        TIFR0 = (1 << TOV0);
+                        teller++;
+                    }
+                }
+                LED_2_PORT ^= (1 << LED_2);
+                teller = 0;
+            }
+        }
+        else {
+            TCNT0 = 0;
+            while (teller < 2*cycles_per_seconde) {
                 if ((TIFR0 & (1 << TOV0))!= 0) {
                     TIFR0 = (1 << TOV0);
                     teller++;
+                    if (teller % (cycles_per_seconde/2) == 0) {
+                        LED_2_PORT ^= (1 << LED_2);
+                    }
                 }
             }
-            LED_2_PORT ^= (1 << LED_2);
-            teller = 0;
-
+            LED_2_PORT |= (1 << LED_2); // is dit inderdaad uit???
         }
-    }
+    /*}
     else {
-        TCNT0 = 0;
-        while (teller < 2*cycles_per_seconde) {
-            if ((TIFR0 & (1 << TOV0))!= 0) {
-                TIFR0 = (1 << TOV0);
-                teller++;
-                if (teller % (cycles_per_seconde/2) == 0) {
-                    LED_2_PORT ^= (1 << LED_2);
-                }
-            }
-
-        }
-        LED_2_PORT |= (1 << LED_2); // is dit inderdaad uit???
-    }
+        tm1637_showNumber(0);
+    }*/
 }
 
 
@@ -124,38 +127,41 @@ ISR(INT4_vect) {
 ISR(INT5_vect) {
     int blokjes_stoppen = blokjes_stop(0,0);
     int aantal_blokjes = blokjes_gedetecteerd(); // rekening houden met dat ie aan het begin meteen dit gaat doen!
-    tm1637_showNumber(aantal_blokjes);
-    motor_R(0);
-    motor_L(0);
-    volatile int teller = 0;
-    if (aantal_blokjes >= blokjes_stoppen) {
-        TCNT0 = 0;
-        while(1) {
-            while (teller < cycles_per_seconde) {
+    //if (aantal_blokjes > 0) {
+        tm1637_showNumber(aantal_blokjes);
+        motor_R(0);
+        motor_L(0);
+        volatile int teller = 0;
+        if (aantal_blokjes >= blokjes_stoppen) {
+            TCNT0 = 0;
+            while(1) {
+                while (teller < cycles_per_seconde) {
+                    if ((TIFR0 & (1 << TOV0))!= 0) {
+                        TIFR0 = (1 << TOV0);
+                        teller++;
+                    }
+                }
+                LED_2_PORT ^= (1 << LED_2);
+                teller = 0;
+            }
+        }
+        else {
+            TCNT0 = 0;
+            while (teller < 2*cycles_per_seconde) {
                 if ((TIFR0 & (1 << TOV0))!= 0) {
                     TIFR0 = (1 << TOV0);
                     teller++;
+                    if (teller % (cycles_per_seconde/2) == 0) {
+                        LED_2_PORT ^= (1 << LED_2);
+                    }
                 }
             }
-            LED_2_PORT ^= (1 << LED_2);
-            teller = 0;
-
+            LED_2_PORT |= (1 << LED_2); // is dit inderdaad uit???
         }
-    }
+    /*}
     else {
-        TCNT0 = 0;
-        while (teller < 2*cycles_per_seconde) {
-            if ((TIFR0 & (1 << TOV0))!= 0) {
-                TIFR0 = (1 << TOV0);
-                teller++;
-                if (teller % (cycles_per_seconde/2) == 0) {
-                    LED_2_PORT ^= (1 << LED_2);
-                }
-            }
-
-        }
-        LED_2_PORT |= (1 << LED_2); // is dit inderdaad uit???
-    }
+        tm1637_showNumber(0);
+    }*/
 }
 
 /*
