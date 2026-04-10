@@ -1,49 +1,49 @@
 Archive member included to satisfy reference by file (symbol)
 
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
                               obj\Debug\module.o (__divmodhi4)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o (exit)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o (exit)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
                               obj\Debug\module.o (__do_copy_data)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
                               obj\Debug\module.o (__do_clear_bss)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
                               obj\Debug\module.o (__umulhisi3)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o) (__udivmodhi4)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
                               obj\Debug\navigatie_lib.o (__subsf3)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o) (__addsf3x)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o) (__addsf3x)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
                               obj\Debug\navigatie_lib.o (__divsf3)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o) (__divsf3x)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o) (__divsf3x)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
                               obj\Debug\motor_lib.o (__fixsfsi)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
                               obj\Debug\sensor_lib.o (__fixunssfsi)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
                               obj\Debug\sensor_lib.o (__floatunsisf)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_inf)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_nan)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_pscA)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_pscB)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o) (__fp_round)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_split3)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_zero)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_inf)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_nan)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_pscA)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_pscB)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o) (__fp_round)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_split3)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_zero)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
                               obj\Debug\motor_lib.o (__mulsf3)
-c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o) (__mulsf3x)
+c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o) (__mulsf3x)
 
 Memory Configuration
 
@@ -60,7 +60,7 @@ user_signatures  0x0000000000850000 0x0000000000000400 rw !x
 Linker script and memory map
 
 Address of section .data set to 0x800200
-LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+LOAD c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 LOAD obj\Debug\fuse.o
 LOAD obj\Debug\init_functions.o
 LOAD obj\Debug\main.o
@@ -71,10 +71,10 @@ LOAD obj\Debug\programma_keuze.o
 LOAD obj\Debug\sensor_lib.o
 LOAD obj\Debug\test_func.o
 START GROUP
-LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a
-LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a
-LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libc.a
-LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libatmega2560.a
+LOAD c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a
+LOAD c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a
+LOAD c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libc.a
+LOAD c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libatmega2560.a
 END GROUP
                 0x0000000000100000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
                 0x000000000000fe00                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xfe00
@@ -176,7 +176,7 @@ END GROUP
 
 .text           0x0000000000000000     0x14e4
  *(.vectors)
- .vectors       0x0000000000000000       0xe4 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .vectors       0x0000000000000000       0xe4 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
                 0x0000000000000000                __vector_default
                 0x0000000000000000                __vectors
  *(.vectors)
@@ -202,20 +202,20 @@ END GROUP
  SORT_BY_NAME(*)(.ctors)
  SORT_BY_NAME(*)(.dtors)
  *(.init0)
- .init0         0x00000000000000e4        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .init0         0x00000000000000e4        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
                 0x00000000000000e4                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000000000000e4       0x10 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .init2         0x00000000000000e4       0x10 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x00000000000000f4       0x1a c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .init4         0x00000000000000f4       0x1a c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
                 0x00000000000000f4                __do_copy_data
- .init4         0x000000000000010e       0x10 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .init4         0x000000000000010e       0x10 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
                 0x000000000000010e                __do_clear_bss
  *(.init4)
  *(.init5)
@@ -227,10 +227,10 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000000000000011e        0x8 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .init9         0x000000000000011e        0x8 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  *(.init9)
  *(.text)
- .text          0x0000000000000126        0x4 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .text          0x0000000000000126        0x4 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
                 0x0000000000000126                __vector_38
                 0x0000000000000126                __vector_22
                 0x0000000000000126                __vector_28
@@ -329,169 +329,169 @@ END GROUP
                 0x0000000000000e8c                send_data
                 0x0000000000000ec2                display_segment
                 0x0000000000000ee0                print_waarde
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
- .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+ .text          0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
                 0x0000000000001052                . = ALIGN (0x2)
  *(.text.*)
  .text.libgcc.mul
-                0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x0000000000001052        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
  .text.libgcc.div
-                0x0000000000001052       0x28 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x0000000000001052       0x28 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
                 0x0000000000001052                _div
                 0x0000000000001052                __divmodhi4
- .text.libgcc   0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
  .text.libgcc.prologue
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
  .text.libgcc.builtins
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
  .text.libgcc.fmul
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
  .text.libgcc.fixed
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
  .text.libgcc.mul
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .text.libgcc.div
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .text.libgcc   0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .text.libgcc.div
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
- .text.libgcc   0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .text.libgcc.prologue
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .text.libgcc.builtins
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .text.libgcc.fmul
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .text.libgcc.fixed
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .text.libgcc.mul
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
- .text.libgcc   0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x000000000000107a        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .text.libgcc.mul
-                0x000000000000107a       0x1e c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x000000000000107a       0x1e c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
                 0x000000000000107a                __umulhisi3
  .text.libgcc.div
-                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
- .text.libgcc   0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
  .text.libgcc.prologue
-                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
  .text.libgcc.builtins
-                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
  .text.libgcc.fmul
-                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
  .text.libgcc.fixed
-                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
  .text.libgcc.mul
-                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x0000000000001098        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
  .text.libgcc.div
-                0x0000000000001098       0x28 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x0000000000001098       0x28 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
                 0x0000000000001098                __udivmodhi4
- .text.libgcc   0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
  .text.libgcc.prologue
-                0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
  .text.libgcc.builtins
-                0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
  .text.libgcc.fmul
-                0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
  .text.libgcc.fixed
-                0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x00000000000010c0        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
  .text.avr-libc.fplib
-                0x00000000000010c0        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+                0x00000000000010c0        0xe c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
                 0x00000000000010c0                __subsf3
                 0x00000000000010c2                __addsf3
  .text.avr-libc.fplib
-                0x00000000000010ce       0xcc c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+                0x00000000000010ce       0xcc c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
                 0x00000000000010f0                __addsf3x
  .text.avr-libc.fplib
-                0x000000000000119a        0x8 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+                0x000000000000119a        0x8 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
                 0x000000000000119a                __divsf3
  .text.avr-libc.fplib
-                0x00000000000011a2       0xdc c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                0x00000000000011a2       0xdc c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
                 0x00000000000011c2                __divsf3x
                 0x00000000000011c8                __divsf3_pse
  .text.avr-libc.fplib
-                0x000000000000127e        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+                0x000000000000127e        0xe c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
                 0x000000000000127e                __fixsfsi
  .text.avr-libc.fplib
-                0x000000000000128c       0x5e c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+                0x000000000000128c       0x5e c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
                 0x000000000000128c                __fixunssfsi
  .text.avr-libc.fplib
-                0x00000000000012ea       0x7a c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+                0x00000000000012ea       0x7a c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
                 0x00000000000012ea                __floatunsisf
                 0x00000000000012ee                __floatsisf
  .text.avr-libc.fplib
-                0x0000000000001364        0xc c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+                0x0000000000001364        0xc c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
                 0x0000000000001364                __fp_inf
  .text.avr-libc.fplib
-                0x0000000000001370        0x6 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+                0x0000000000001370        0x6 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
                 0x0000000000001370                __fp_nan
  .text.avr-libc.fplib
-                0x0000000000001376        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+                0x0000000000001376        0xe c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
                 0x0000000000001376                __fp_pscA
  .text.avr-libc.fplib
-                0x0000000000001384        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+                0x0000000000001384        0xe c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
                 0x0000000000001384                __fp_pscB
  .text.avr-libc.fplib
-                0x0000000000001392       0x22 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+                0x0000000000001392       0x22 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
                 0x0000000000001392                __fp_round
  .text.avr-libc.fplib
-                0x00000000000013b4       0x44 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                0x00000000000013b4       0x44 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
                 0x00000000000013b4                __fp_split3
                 0x00000000000013c4                __fp_splitA
  .text.avr-libc.fplib
-                0x00000000000013f8        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                0x00000000000013f8        0xe c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
                 0x00000000000013f8                __fp_zero
                 0x00000000000013fa                __fp_szero
  .text.avr-libc.fplib
-                0x0000000000001406        0x8 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+                0x0000000000001406        0x8 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
                 0x0000000000001406                __mulsf3
  .text.avr-libc.fplib
-                0x000000000000140e       0xd2 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                0x000000000000140e       0xd2 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
                 0x000000000000142c                __mulsf3x
                 0x0000000000001432                __mulsf3_pse
                 0x00000000000014e0                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000000000014e0        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .fini9         0x00000000000014e0        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
                 0x00000000000014e0                _exit
                 0x00000000000014e0                exit
  *(.fini9)
@@ -512,7 +512,7 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000000000014e0        0x4 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .fini0         0x00000000000014e0        0x4 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
@@ -525,7 +525,7 @@ END GROUP
 .data           0x0000000000800200       0x16 load address 0x00000000000014e4
                 0x0000000000800200                PROVIDE (__data_start = .)
  *(.data)
- .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  .data          0x0000000000800200        0x0 obj\Debug\fuse.o
  .data          0x0000000000800200        0x0 obj\Debug\init_functions.o
  .data          0x0000000000800200        0x0 obj\Debug\main.o
@@ -535,28 +535,28 @@ END GROUP
  .data          0x0000000000800202        0x0 obj\Debug\programma_keuze.o
  .data          0x0000000000800202        0x0 obj\Debug\sensor_lib.o
  .data          0x0000000000800202        0x0 obj\Debug\test_func.o
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
- .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+ .data          0x0000000000800202        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
  *(.data*)
  *(.gnu.linkonce.d*)
  *(.rodata)
@@ -572,7 +572,7 @@ END GROUP
 .bss            0x0000000000800216       0x12
                 0x0000000000800216                PROVIDE (__bss_start = .)
  *(.bss)
- .bss           0x0000000000800216        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .bss           0x0000000000800216        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  .bss           0x0000000000800216        0x0 obj\Debug\fuse.o
  .bss           0x0000000000800216        0x0 obj\Debug\init_functions.o
  .bss           0x0000000000800216        0x0 obj\Debug\main.o
@@ -582,28 +582,28 @@ END GROUP
  .bss           0x0000000000800228        0x0 obj\Debug\programma_keuze.o
  .bss           0x0000000000800228        0x0 obj\Debug\sensor_lib.o
  .bss           0x0000000000800228        0x0 obj\Debug\test_func.o
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
- .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+ .bss           0x0000000000800228        0x0 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
  *(.bss*)
  *(COMMON)
                 0x0000000000800228                PROVIDE (__bss_end = .)
@@ -669,7 +669,7 @@ END GROUP
 .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x40
  .note.gnu.avr.deviceinfo
-                0x0000000000000000       0x40 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x0000000000000000       0x40 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
@@ -707,24 +707,24 @@ END GROUP
  .debug_aranges
                 0x00000000000000f8       0x20 obj\Debug\test_func.o
  .debug_aranges
-                0x0000000000000118       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x0000000000000118       0x20 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
  .debug_aranges
-                0x0000000000000138       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x0000000000000138       0x20 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .debug_aranges
-                0x0000000000000158       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x0000000000000158       0x20 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .debug_aranges
-                0x0000000000000178       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x0000000000000178       0x20 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .debug_aranges
-                0x0000000000000198       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x0000000000000198       0x20 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
  .debug_aranges
-                0x00000000000001b8       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x00000000000001b8       0x20 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x0000000000000000     0x260d
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x0000000000000000      0xbbc c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_info    0x0000000000000000      0xbbc c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  .debug_info    0x0000000000000bbc       0xa2 obj\Debug\fuse.o
  .debug_info    0x0000000000000c5e      0x1f9 obj\Debug\init_functions.o
  .debug_info    0x0000000000000e57       0xde obj\Debug\main.o
@@ -734,16 +734,16 @@ END GROUP
  .debug_info    0x0000000000001c57      0x2f7 obj\Debug\programma_keuze.o
  .debug_info    0x0000000000001f4e      0x227 obj\Debug\sensor_lib.o
  .debug_info    0x0000000000002175      0x3c0 obj\Debug\test_func.o
- .debug_info    0x0000000000002535       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
- .debug_info    0x0000000000002559       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_info    0x000000000000257d       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
- .debug_info    0x00000000000025a1       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
- .debug_info    0x00000000000025c5       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
- .debug_info    0x00000000000025e9       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_info    0x0000000000002535       0x24 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .debug_info    0x0000000000002559       0x24 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_info    0x000000000000257d       0x24 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .debug_info    0x00000000000025a1       0x24 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_info    0x00000000000025c5       0x24 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .debug_info    0x00000000000025e9       0x24 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
 
 .debug_abbrev   0x0000000000000000     0x1639
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000      0xb1a c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_abbrev  0x0000000000000000      0xb1a c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  .debug_abbrev  0x0000000000000b1a       0x7b obj\Debug\fuse.o
  .debug_abbrev  0x0000000000000b95       0xd1 obj\Debug\init_functions.o
  .debug_abbrev  0x0000000000000c66       0xb9 obj\Debug\main.o
@@ -753,16 +753,16 @@ END GROUP
  .debug_abbrev  0x00000000000011a4      0x16c obj\Debug\programma_keuze.o
  .debug_abbrev  0x0000000000001310      0x141 obj\Debug\sensor_lib.o
  .debug_abbrev  0x0000000000001451      0x170 obj\Debug\test_func.o
- .debug_abbrev  0x00000000000015c1       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
- .debug_abbrev  0x00000000000015d5       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_abbrev  0x00000000000015e9       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
- .debug_abbrev  0x00000000000015fd       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
- .debug_abbrev  0x0000000000001611       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
- .debug_abbrev  0x0000000000001625       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_abbrev  0x00000000000015c1       0x14 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .debug_abbrev  0x00000000000015d5       0x14 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_abbrev  0x00000000000015e9       0x14 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000000000015fd       0x14 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x0000000000001611       0x14 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .debug_abbrev  0x0000000000001625       0x14 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
 
 .debug_line     0x0000000000000000     0x265a
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x0000000000000000       0x1d c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_line    0x0000000000000000       0x1d c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  .debug_line    0x000000000000001d       0x3f obj\Debug\fuse.o
  .debug_line    0x000000000000005c      0x5df obj\Debug\init_functions.o
  .debug_line    0x000000000000063b       0xbb obj\Debug\main.o
@@ -772,12 +772,12 @@ END GROUP
  .debug_line    0x000000000000174b      0x4d3 obj\Debug\programma_keuze.o
  .debug_line    0x0000000000001c1e      0x35e obj\Debug\sensor_lib.o
  .debug_line    0x0000000000001f7c      0x372 obj\Debug\test_func.o
- .debug_line    0x00000000000022ee       0xb7 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
- .debug_line    0x00000000000023a5       0x51 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_line    0x00000000000023f6       0x93 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
- .debug_line    0x0000000000002489       0x75 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
- .debug_line    0x00000000000024fe       0x9f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
- .debug_line    0x000000000000259d       0xbd c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_line    0x00000000000022ee       0xb7 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .debug_line    0x00000000000023a5       0x51 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_line    0x00000000000023f6       0x93 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .debug_line    0x0000000000002489       0x75 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_line    0x00000000000024fe       0x9f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .debug_line    0x000000000000259d       0xbd c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
 
 .debug_frame    0x0000000000000000      0x480
  *(.debug_frame)
@@ -792,7 +792,7 @@ END GROUP
 
 .debug_str      0x0000000000000000      0x92a
  *(.debug_str)
- .debug_str     0x0000000000000000      0x3e9 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_str     0x0000000000000000      0x3e9 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  .debug_str     0x00000000000003e9       0xa8 obj\Debug\fuse.o
                                          0xdc (size before relaxing)
  .debug_str     0x0000000000000491       0xde obj\Debug\init_functions.o
@@ -811,12 +811,12 @@ END GROUP
                                         0x17a (size before relaxing)
  .debug_str     0x000000000000088c       0x3f obj\Debug\test_func.o
                                         0x16c (size before relaxing)
- .debug_str     0x00000000000008cb       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
- .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
- .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
- .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
- .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_str     0x00000000000008cb       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+ .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .debug_str     0x000000000000092a       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
 
 .debug_loc
  *(.debug_loc)
@@ -876,18 +876,18 @@ END GROUP
                 0x000000000000019c        0xc obj\Debug\test_func.o
                                         0x11d (size before relaxing)
  .debug_line_str
-                0x00000000000001a8       0x53 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x00000000000001a8       0x53 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
                                          0x5f (size before relaxing)
  .debug_line_str
-                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .debug_line_str
-                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .debug_line_str
-                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .debug_line_str
-                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
  .debug_line_str
-                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x00000000000001fb       0x5f c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
 
 .debug_loclists
                 0x0000000000000000      0x914
@@ -933,156 +933,156 @@ Cross Reference Table
 
 Symbol                                            File
 OPSLAG                                            obj\Debug\main.o
-__FUSE_REGION_LENGTH__                            c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__addsf3                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
-__addsf3x                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
-__bad_interrupt                                   c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__bss_end                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
-__bss_start                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
-__data_end                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
-__data_load_start                                 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
-__data_start                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
-__divmodhi4                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+__FUSE_REGION_LENGTH__                            c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__addsf3                                          c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+__addsf3x                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+__bad_interrupt                                   c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__bss_end                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+__data_end                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+__data_start                                      c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+__divmodhi4                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
                                                   obj\Debug\module.o
-__divsf3                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+__divsf3                                          c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
                                                   obj\Debug\navigatie_lib.o
-__divsf3_pse                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-__divsf3x                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
-__do_clear_bss                                    c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+__divsf3_pse                                      c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+__divsf3x                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+__do_clear_bss                                    c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
                                                   obj\Debug\navigatie_lib.o
                                                   obj\Debug\module.o
-__do_copy_data                                    c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+__do_copy_data                                    c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
                                                   obj\Debug\test_func.o
                                                   obj\Debug\module.o
-__fixsfsi                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+__fixsfsi                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
                                                   obj\Debug\motor_lib.o
-__fixunssfsi                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+__fixunssfsi                                      c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
                                                   obj\Debug\sensor_lib.o
-__floatsisf                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+__floatsisf                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
                                                   obj\Debug\navigatie_lib.o
-__floatunsisf                                     c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+__floatunsisf                                     c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
                                                   obj\Debug\sensor_lib.o
-__fp_inf                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
-__fp_nan                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
-__fp_pscA                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
-__fp_pscB                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
-__fp_round                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
-__fp_split3                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
-__fp_splitA                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
-__fp_szero                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
-__fp_zero                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_inf                                          c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_nan                                          c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_pscA                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_pscB                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_round                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+__fp_split3                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_splitA                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+__fp_szero                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+__fp_zero                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
 __fuse                                            obj\Debug\fuse.o
-__heap_end                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__init                                            c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__mulsf3                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+__heap_end                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__init                                            c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__mulsf3                                          c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
                                                   obj\Debug\sensor_lib.o
                                                   obj\Debug\motor_lib.o
-__mulsf3_pse                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-__mulsf3x                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
-__stack                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__subsf3                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+__mulsf3_pse                                      c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+__mulsf3x                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+__stack                                           c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__subsf3                                          c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
                                                   obj\Debug\navigatie_lib.o
-__udivmodhi4                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
-__umulhisi3                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+__udivmodhi4                                      c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+__umulhisi3                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
                                                   obj\Debug\test_func.o
                                                   obj\Debug\module.o
-__vector_1                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_10                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_11                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_12                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_13                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_14                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_15                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_16                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_17                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_18                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_19                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_2                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_20                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_21                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_22                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_23                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_24                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_25                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_26                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_27                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_28                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_29                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_3                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_30                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_31                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_32                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_33                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_34                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_35                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_36                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_37                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_38                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_39                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_4                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_40                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_41                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_42                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_43                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_44                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_45                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_46                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_47                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_48                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_49                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_1                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_10                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_11                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_12                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_13                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_14                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_15                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_16                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_17                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_18                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_19                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_2                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_20                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_21                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_22                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_23                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_24                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_25                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_26                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_27                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_28                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_29                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_3                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_30                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_31                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_32                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_33                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_34                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_35                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_36                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_37                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_38                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_39                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_4                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_40                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_41                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_42                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_43                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_44                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_45                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_46                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_47                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_48                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_49                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_5                                        obj\Debug\module.o
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_50                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_51                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_52                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_53                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_54                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_55                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_56                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_50                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_51                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_52                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_53                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_54                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_55                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_56                                       c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_6                                        obj\Debug\module.o
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_7                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_8                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_9                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vector_default                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-__vectors                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-_div                                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
-_exit                                             c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_7                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_8                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_9                                        c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_default                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vectors                                         c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+_div                                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+_exit                                             c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
 blokjes_gedetecteerd                              obj\Debug\module.o
 blokjes_stop                                      obj\Debug\module.o
                                                   obj\Debug\main.o
 display_segment                                   obj\Debug\test_func.o
-exit                                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+exit                                              c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 init_display                                      obj\Debug\init_functions.o
 init_function                                     obj\Debug\init_functions.o
                                                   obj\Debug\programma_keuze.o
@@ -1098,7 +1098,7 @@ init_timer_PWM                                    obj\Debug\init_functions.o
 init_ultrasoon_sensor                             obj\Debug\init_functions.o
 keren                                             obj\Debug\navigatie_lib.o
 main                                              obj\Debug\main.o
-                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1_hhs/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 motor_L                                           obj\Debug\motor_lib.o
                                                   obj\Debug\navigatie_lib.o
                                                   obj\Debug\module.o

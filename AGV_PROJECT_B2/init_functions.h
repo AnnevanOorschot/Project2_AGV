@@ -124,6 +124,9 @@
 #define TOP_VALUE                   40000UL
 #define RESET_VALUE_TIMER1          59286UL
 
+#define TRUE    1
+#define FALSE   0
+
 // FUNCTIES //
 void init_ultrasoon_sensor(void);
 void init_infrarood_sensor(void);
