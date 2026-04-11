@@ -2,8 +2,9 @@
 1774458007 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\fuse.c
 	<avr/io.h>
 
-1775734955 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\main.c
+1775840000 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\main.c
 	<avr/io.h>
+	<avr/interrupt.h>
 	<util/delay.h>
 	"init_functions.h"
 	"sensor_lib.h"
@@ -13,14 +14,19 @@
 	"test_func.h"
 	"module.h"
 
-1775596985 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.h
+1775840000 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.h
 
-1775735996 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.c
+1775840000 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.c
 	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
 	"init_functions.h"
 	"sensor_lib.h"
 	"navigatie_lib.h"
+	"programma_keuze.h"
 	"motor_lib.h"
+	"module.h"
+	"test_func.h"
 
 1775402816 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\sensor_lib.h
 
@@ -66,11 +72,12 @@
 
 1775685735 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\test_func.h
 
-1775686297 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\module.h
+1775840001 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\module.h
 
-1775686576 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\module.c
+1775840000 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\module.c
 	<avr/io.h>
 	<avr/interrupt.h>
+	<util/delay.h>
 	"init_functions.h"
 	"sensor_lib.h"
 	"navigatie_lib.h"
@@ -78,7 +85,7 @@
 	"module.h"
 	"test_func.h"
 
-1775734422 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\test_func.c
+1775753091 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\test_func.c
 	<avr/io.h>
 	<util/delay.h>
 	"test_func.h"
