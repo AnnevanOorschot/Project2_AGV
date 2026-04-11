@@ -12,15 +12,15 @@ void print_waarde(unsigned int temp)
     };
 
     display_segment(segmentcodes[temp % 10], 3); // Eenheden
-    _delay_us(5000);
+    _delay_us(250);
 
     temp /= 10;
     display_segment(segmentcodes[temp % 10], 2); // Tientallen
-    _delay_us(5000);
+    _delay_us(250);
 
     temp /= 10;
     display_segment(segmentcodes[temp % 10], 1); // Honderdtallen
-    _delay_us(5000);
+    _delay_us(250);
 
     temp /= 10;
     display_segment(segmentcodes[temp % 10], 0); // Duizendtallen [segmentcodes[temp % 10], 0]
@@ -46,17 +46,17 @@ void send_data(unsigned char data) {
     }
 }
 
-/*void print_turd(void)
+void print_turd(void)
 {
     display_segment(0x87, 0); // Eenheden
-    _delay_us(250);
+    _delay_us(2500);
 
     display_segment(0xE3, 1); // Tientallen
-    _delay_us(250);
+    _delay_us(2500);
 
     display_segment(0xAF, 2); // Honderdtallen
-    _delay_us(250);
+    _delay_us(2500);
 
     display_segment(0xA1, 3); // Duizendtallen [segmentcodes[temp % 10], 0]
-    _delay_us(250);
-}*/
+    _delay_us(2500);
+}

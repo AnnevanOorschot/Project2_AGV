@@ -2,7 +2,6 @@
  */
 
 #include <avr/io.h>
-#include <avr/interrupt.h>
 #include <util/delay.h>
 #include "init_functions.h"
 #include "sensor_lib.h"
@@ -21,66 +20,103 @@
 
 
 
+
 int main(void)
 {
     init_function();
-    blokjes_stop(5, 1);
-    INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
-    INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
-    //padNavigeren(RECHTS);
-    /*
+    DDRB |= (1 << PB7);
+    DDRB |= (1 << PB6);
+    DDRB |= (1 << PB5);
+    DDRB |= (1 << PB4);
+
+    PORTB |= (1 << PB7);
+    PORTB |= (1 << PB6);
+    PORTB |= (1 << PB5);
+    PORTB |= (1 << PB4);
+
+
     switch(programma_keuze())
-        {//RECHTS
-        case rechtdoor:
-            {
-                padNavigeren(RECHTS);
-                break;
-            }
-
-        case keren_R:
-            {
-
-                padNavigeren(RECHTS);
-                keren(RECHTS);
-                padNavigeren(LINKS);
-                break;
-            }
-        case keren_L:
-            {
-                padNavigeren(LINKS);
-                keren(LINKS);
-                padNavigeren(RECHTS);
-                break;
-            }
-        case pakketTellen:
-            {
-                INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
-                INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
-                blokjes_stop(5, 1);
-                //pakketDetectie(SET, 5);
-                padNavigeren(RECHTS);
-                break;
-            }
-        case parkour:
-            {
-                INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
-                INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
-                blokjes_stop(15,1);
-                //pakketDetectie(SET, 15);
-                padNavigeren(RECHTS);
-                keren(RECHTS);
-                padNavigeren(LINKS);
-                keren(LINKS);
-                padNavigeren(RECHTS);
-                break;
-            }
-        }
-    */
-    while(1)
     {
-
+    case rechtdoor:
+        {
+            padNavigeren(RECHTS);
+            //PORTB &= ~(1 << PB7);
+            //PORTB |= (1 << PB6);
+            //PORTB |= (1 << PB5);
+            //PORTB |= (1 << PB4);
+            break;
+        }
+    case keren_L:
+        {
+            padNavigeren(LINKS);
+            keren(LINKS);
+            padNavigeren(RECHTS);
+            //PORTB |= (1 << PB7);
+            //PORTB &= ~(1 << PB6);
+            //PORTB |= (1 << PB5);
+            //PORTB |= (1 << PB4);
+            break;
+        }
+    case keren_R:
+        {
+            padNavigeren(RECHTS);
+            keren(RECHTS);
+            padNavigeren(LINKS);
+            //PORTB &= ~(1 << PB7);
+            //PORTB &= ~(1 << PB6);
+            //PORTB |= (1 << PB5);
+            //PORTB |= (1 << PB4);
+            break;
+        }
+    case pakketTellen:
+        {
+            INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
+            INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
+            blokjes_stop(5, 1);
+            padNavigeren(RECHTS);
+            //PORTB |= (1 << PB7);
+            //PORTB |= (1 << PB6);
+            //PORTB &= ~(1 << PB5);
+            //PORTB |= (1 << PB4);
+            break;
+        }
+    case parkour:
+        {
+            INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
+            INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
+            blokjes_stop(15, 1);
+            padNavigeren(RECHTS);
+            keren(RECHTS);
+            padNavigeren(LINKS);
+            keren(LINKS);
+            padNavigeren(RECHTS);
+            //PORTB &= ~(1 << PB7);
+            //PORTB |= (1 << PB6);
+            //PORTB &= ~(1 << PB5);
+            //PORTB |= (1 << PB4);
+            break;
+        }
     }
+    /*
+    motor_config(VOORUIT,LINKS);
+    motor_config(VOORUIT,RECHTS);
 
+    padNavigeren(RECHTS);
+    motor_L(1);
+    motor_R(1);
+    _delay_ms(500);         //NOG AANPASSEN
+    kerenR();
+
+    LED_1_PORT |=  (1 << LED_1);
+    LED_2_PORT |=  (1 << LED_2);
+
+    padNavigeren(LINKS);
+    motor_L(1.0);
+    motor_R(1.0);
+    _delay_ms(500);         //NOG AANPASSEN
+    kerenLGroot();
+    padNavigeren(RECHTS);
+    */
     return 0;
 }
 
@@ -105,7 +141,7 @@ void OPSLAG(void)
 
         while(1)
     {
-        LED_1_PORT |= (1 << LED_1);
+        LED_2_PORT |= (1 << LED_2);
             count2++;
         if (TIFR1 & (1 << TOV1))
         {
@@ -131,7 +167,7 @@ void OPSLAG(void)
             if (TIFR1 & (1 << TOV1))
             {
                 temp = 1;
-                //LED_1_PORT &= ~(1 << LED_1);
+                //LED_2_PORT &= ~(1 << LED_2);
                 TIFR1 = (1 << TOV1);
             }
         }
@@ -141,7 +177,7 @@ void OPSLAG(void)
             if (TIFR1 & (1 << TOV1))
             {
                 temp = 0;
-                //LED_1_PORT |= (1 << LED_1);
+                //LED_2_PORT |= (1 << LED_2);
                 TIFR1 = (1 << TOV1);
             }
         }

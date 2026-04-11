@@ -14,7 +14,7 @@ uint16_t ultrasoonAfstand_R(void)
     ULTRASOON_TRIGGER_R_PORT &= ~(1 << ULTRASOON_TRIGGER_R);
 
     // 2. Wacht op echo
-    uint32_t timeout = 10000;
+    uint32_t timeout = TIMEOUT;
     while (!(ULTRASOON_ECHO_R_PIN & (1 << ULTRASOON_ECHO_R)) && timeout--);
     if (timeout == 0) return 999;
 
@@ -27,7 +27,7 @@ uint16_t ultrasoonAfstand_R(void)
     TCCR1B = 0;
 
     // 5. Bereken afstand
-    uint16_t distance = TCNT1 * 0.008575;
+    uint16_t distance = TCNT1 * TICKFACTOR;
 
     // 6. Return waarde
     return distance;
@@ -41,7 +41,7 @@ uint16_t ultrasoonAfstand_L(void)
     ULTRASOON_TRIGGER_L_PORT &= ~(1 << ULTRASOON_TRIGGER_L);
 
     // 2. Wacht op start echo
-    uint32_t timeout = 10000;
+    uint32_t timeout = TIMEOUT;
     while(!(ULTRASOON_ECHO_L_PIN & (1 << ULTRASOON_ECHO_L)) && timeout--);
     if(timeout == 0) return 999; // Foutmelding
 
@@ -54,8 +54,8 @@ uint16_t ultrasoonAfstand_L(void)
     TCCR1B = 0; // Stop timer
 
     // 5. Bereken: ticks * 0.5us * 0.0343 / 2
-    uint16_t distance = TCNT1 * 0.008575;
+    uint16_t distanceL = TCNT1 * TICKFACTOR;
 
     // 6. Return waarde
-    return distance;
+    return distanceL;
 }
