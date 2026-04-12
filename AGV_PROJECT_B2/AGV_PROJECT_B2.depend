@@ -2,7 +2,7 @@
 1774458007 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\fuse.c
 	<avr/io.h>
 
-1775934777 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\main.c
+1776005673 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\main.c
 	<avr/io.h>
 	<util/delay.h>
 	"init_functions.h"
@@ -10,12 +10,11 @@
 	"navigatie_lib.h"
 	"motor_lib.h"
 	"programma_keuze.h"
-	"test_func.h"
 	"module.h"
 
-1775931947 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.h
+1776005194 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.h
 
-1775934472 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.c
+1776005194 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\init_functions.c
 	<avr/io.h>
 	<avr/interrupt.h>
 	<util/delay.h>
@@ -25,11 +24,10 @@
 	"programma_keuze.h"
 	"motor_lib.h"
 	"module.h"
-	"test_func.h"
 
 1775909762 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\sensor_lib.h
 
-1775909762 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\navigatie_lib.h
+1776003973 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\navigatie_lib.h
 
 1775909762 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\motor_lib.h
 
@@ -42,7 +40,7 @@
 	"motor_lib.h"
 	"programma_keuze.h"
 
-1775909762 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\motor_lib.c
+1776001295 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\motor_lib.c
 	<avr/io.h>
 	"init_functions.h"
 	"sensor_lib.h"
@@ -50,18 +48,17 @@
 	"motor_lib.h"
 	"module.h"
 
-1775927711 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\navigatie_lib.c
+1776005638 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\navigatie_lib.c
 	<avr/io.h>
 	<util/delay.h>
 	"init_functions.h"
 	"sensor_lib.h"
 	"navigatie_lib.h"
 	"motor_lib.h"
-	"test_func.h"
 
 1775909762 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\programma_keuze.h
 
-1775909762 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\programma_keuze.c
+1776005658 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\programma_keuze.c
 	<avr/io.h>
 	"init_functions.h"
 	"sensor_lib.h"
@@ -72,9 +69,9 @@
 
 1775909762 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\test_func.h
 
-1775909762 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\module.h
+1776005194 c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\module.h
 
-1775934472 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\module.c
+1776005194 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\module.c
 	<avr/io.h>
 	<avr/interrupt.h>
 	<util/delay.h>
@@ -83,7 +80,6 @@
 	"navigatie_lib.h"
 	"motor_lib.h"
 	"module.h"
-	"test_func.h"
 
 1775909762 source:c:\users\tillb\documents\programmer_hhs\agv_project_b2\project2_agv\agv_project_b2\test_func.c
 	<avr/io.h>

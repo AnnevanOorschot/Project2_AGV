@@ -7,7 +7,6 @@
 #include "programma_keuze.h"
 #include "motor_lib.h"
 #include "module.h"
-#include "test_func.h"
 
 
 void init_ultrasoon_sensor(void)
@@ -32,12 +31,6 @@ void init_infrarood_sensor(void)
     INFRAROOD_AGV_R_DDR &= ~(1 << INFRAROOD_AGV_R);
     INFRAROOD_AGV_L_DDR &= ~(1 << INFRAROOD_AGV_L);
 
-    /*
-    //INFRAROOD MODULE als input configureren
-    INFRAROOD_MODULE_R_DDR &= ~(1 << INFRAROOD_MODULE_R);
-    INFRAROOD_MODULE_L_DDR &= ~(1 << INFRAROOD_MODULE_L);
-    */
-
     // Infrarood module
     INFRAROOD_MODULE_R_DDR &= ~(1 << INFRAROOD_MODULE_R);
     INFRAROOD_MODULE_ENABLE_R_DDR |= (1 << INFRAROOD_MODULE_ENABLE_R);
@@ -48,9 +41,6 @@ void init_infrarood_sensor(void)
     INFRAROOD_MODULE_ENABLE_R_PORT &= ~(1 << INFRAROOD_MODULE_ENABLE_R);
     INFRAROOD_MODULE_ENABLE_L_PORT &= ~(1 << INFRAROOD_MODULE_ENABLE_L);
 
-    //INFRAROOD_MODULE_L_PORT |= (1 << INFRAROOD_MODULE_L);
-    //INFRAROOD_MODULE_R_PORT |= (1 << INFRAROOD_MODULE_R);
-
     //interrupt Infraroodsensoren module, falling edge
     EICRB |= (1 << ISC41);
     EICRB &= ~(1 << ISC40);
@@ -60,9 +50,13 @@ void init_infrarood_sensor(void)
     EIMSK |= (1 << INT4);
     EIMSK |= (1 << INT5);
 
+    //Timer voor 2 sec stilstaan bij blok detectie
     TCCR0B |= (1 << CS02);
     TCCR0B &= ~(1 << CS01);
     TCCR0B |= (1 << CS00);
+
+    TCCR1A = 0;
+    TCCR1B |= (1 << CS12)|(0 << CS11)|(0 << CS10);
 }
 
 void init_knopjes(void)
@@ -90,7 +84,7 @@ void init_led(void)
     LED_1_DDR |= (1 << LED_1);
     LED_2_DDR |= (1 << LED_2);
 
-    //LED laag zetten
+    //LED hoog zetten
     LED_1_PORT |= (1 << LED_1);
     LED_2_PORT |= (1 << LED_2);
 }
@@ -126,32 +120,15 @@ void init_noodstop(void)
 
 void init_timer_PWM(void)
 {
+    //PWM L instellen
     ICR5 = TOP_VALUE;
-
     TCCR5A = (1 << WGM51) | (0 << WGM50) | (1 << COM5A1) | (0 << COM5A0);
     TCCR5B = (1 << WGM53) | (1 << WGM52) | (0 << CS52) | (1 << CS51) | (0 << CS50);
 
+    //PWM R instellen
     ICR4 = TOP_VALUE;
-
     TCCR4A = (1 << WGM41) | (0 << WGM40) | (1 << COM4A1) | (0 << COM4A0);
     TCCR4B = (1 << WGM43) | (1 << WGM42) | (0 << CS42) | (1 << CS41) | (0 << CS40);
-}
-
-void init_test(void)
-{
-    // Display pinnen als output
-    DDRH |= (1 << SDI_BIT) | (1 << SFTCLK_BIT);
-    DDRG |= (1 << LCHCLK_BIT);
-
-    // Timers en poorten resetten
-    PORTG &= ~(1 << LCHCLK_BIT);
-}
-
-void init_timer(void) // timer 0.1 sec
-{
-    TCNT2 = RESET_VALUE_TIMER1;
-    TCCR2A = 0;
-    TCCR2B = (1 << CS12)|(0 << CS11)|(0 << CS10);
 }
 
 void init_display(void) {
@@ -162,11 +139,21 @@ void init_display(void) {
     tm_start();
     send_byte(0x8A);
     tm_stop();
-    // typ hier de nummers die je wilt zien
+    //start met 0 op het display
     tm1637_showNumber(0);
 }
+void init_motor(void)
+{
+    //h-brug instellen op vooruit rijden
+    motor_config(VOORUIT, LINKS);
+    motor_config(VOORUIT, RECHTS);
 
-void init_function(void)
+    //motoren uitzetten
+    motor_L(1.0);
+    motor_R(1.0);
+}
+
+void init_function(void) //Alle initialisatie functies worden hier aangeroepen
 {
     init_ultrasoon_sensor();
     init_infrarood_sensor();
@@ -175,8 +162,7 @@ void init_function(void)
     init_h_brug_dual();
     init_noodstop();
     init_timer_PWM();
-    init_timer();
-    init_test();
     init_display();
+    init_motor();
     sei();
 }

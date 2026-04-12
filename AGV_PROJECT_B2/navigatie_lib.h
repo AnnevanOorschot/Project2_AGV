@@ -6,10 +6,9 @@
 #define VERWEG          30
 
 //int diffUltrasoon(void);
-float percentageSteering_R(int temp);
-float percentageSteering_L(int temp);
-void padNavigeren(int kant);
-void keren(int richting);
+float percentageSteering_R(int diffAfstand);
+float percentageSteering_L(int diffAfstand);
+void padNavigeren(void);
 void kerenLKlein(void);
 void kerenLGroot(void);
 void kerenR(void);

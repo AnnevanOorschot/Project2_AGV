@@ -45,7 +45,7 @@ int programma_keuze(void)
             pressed = TRUE;
             _delay_ms(5); //debounce
         }
-        if (!(KNOP_6_PIN & (1 << KNOP_6)) && !(programma == startUp))                   /// knop 6 --> START PROGRAMMA
+        if (!(KNOP_6_PIN & (1 << KNOP_6)) && !(programma == startUp))                       /// knop 6 --> START PROGRAMMA
         {
             keuzeGemaakt = TRUE;
             _delay_ms(5); //debounce

@@ -12,8 +12,6 @@ void motor_R(float factor)
     OCR4A = motor_PWM_R;
 }
 
-/// IFSTATEMENT VOOR PWM 0 EN 100
-
 void motor_L(float factor)
 {
     int motor_PWM_L = PWM * factor;

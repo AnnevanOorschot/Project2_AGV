@@ -19,12 +19,15 @@ void wachten(int num, int factor);
 #define DIO_OUTPUT() (DDRG  |= (1 << PG0))
 #define DIO_INPUT()  (DDRG  &= ~(1 << PG0))
 
+#define SET             1
+#define BLOKDETECTIE    5
+#define PAROURBLOKJES   15
+
 void send_byte(uint8_t data);
 void tm_start();
 void tm_stop();
 void tm1637_showNumber(uint16_t num);
-void maintest();
-int blokjes_gedetecteerd(void);
+int blokjes_gedetecteerd(int nieuw);
 int blokjes_stop(int taak, int instel);
 
 #endif // MODULE_H_INCLUDED

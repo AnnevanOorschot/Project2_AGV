@@ -6,14 +6,14 @@
 #include "navigatie_lib.h"
 #include "motor_lib.h"
 #include "module.h"
-#include "test_func.h"
 
 
-//segment array
+//Segment array display
 const uint8_t segmentMap[] = {
     0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F
 };
 
+// Display
 void send_byte(uint8_t data) {
     for (uint8_t i = 0; i < 8; i++) {
         CLK_LOW();
@@ -33,16 +33,19 @@ void send_byte(uint8_t data) {
     DIO_OUTPUT();
 }
 
+// Display
 void tm_start() {
     DIO_OUTPUT(); DIO_HIGH(); CLK_HIGH(); _delay_us(50);
     DIO_LOW(); _delay_us(50); CLK_LOW();
 }
 
+// Display
 void tm_stop() {
     CLK_LOW(); DIO_LOW(); _delay_us(50);
     CLK_HIGH(); _delay_us(50); DIO_HIGH();
 }
 
+// Print cijfers op display
 void tm1637_showNumber(uint16_t num) {
     uint8_t digits[4];
     digits[0] = num / 1000;
@@ -66,107 +69,99 @@ void tm1637_showNumber(uint16_t num) {
     tm_stop();
 }
 
-int blokjes_gedetecteerd (void) {
-    static int aantal = -2; //compenseert voor valse true bij opstarten
-    aantal++;
+int blokjes_gedetecteerd (int nieuw) { // Houdt bij hoeveel blokjes gedetecteerd zijn, compenseert voor valse positieve
+    static int vals = 2;
+    static int aantal = 0;
+    if (nieuw == 2) {
+        vals = 2;
+    }
+    if (nieuw == 0 && vals <= 0) {
+        aantal++;
+    }
+    if (nieuw == 0) {
+        vals = vals -1;
+    }
     return (aantal);
 }
 
-int blokjes_stop(int taak, int instel) {
+int blokjes_stop(int taak, int instel) { // Aangeven bij hoeveel blokjes de robot moet stoppen
     static int blokjes_stoppen = 0;
     if (instel == 1) {
         blokjes_stoppen = taak;
     }
-
     return (blokjes_stoppen);
 }
 
 // infraroodsensor links detecteert blokje
 ISR(INT4_vect) {
-    //volatile int temp = 0;
-    //temp++;
-    int blokjes_stoppen = blokjes_stop(0,0);
-    int aantal_blokjes = blokjes_gedetecteerd(); // rekening houden met dat ie aan het begin meteen dit gaat doen!
-    //if (aantal_blokjes > 0) {
-        tm1637_showNumber(aantal_blokjes);
-        //tm1637_showNumber(temp);
-        motor_R(0);
-        motor_L(0);
-        volatile int teller = 0;
-        if (aantal_blokjes >= blokjes_stoppen) {
-            TCNT0 = 0;
-            while(1) {
-                while (teller < cycles_per_seconde) {
-                    if ((TIFR0 & (1 << TOV0))!= 0) {
-                        TIFR0 = (1 << TOV0);
-                        teller++;
-                    }
-                }
-                LED_2_PORT ^= (1 << LED_2);
-                teller = 0;
-            }
-        }
-        else {
-            TCNT0 = 0;
-            while (teller < 2*cycles_per_seconde) {
+    int blokjes_stoppen = blokjes_stop(0,0); // Kijkt hoeveel blokjes er geteld moeten worden
+    int aantal_blokjes = blokjes_gedetecteerd(0); // Past aantal getelde blokjes aan
+    tm1637_showNumber(aantal_blokjes);
+    motor_R(0); // Motor uitschakelen
+    motor_L(0); // Motor uitschakelen
+    volatile int teller = 0;
+    if (aantal_blokjes >= blokjes_stoppen) { // Als het gewenste aantal blokjes bereikt is langzaam knipperen en niet meer verder rijden
+        TCNT0 = 0;
+        while(1) {
+            while (teller < cycles_per_seconde) {
                 if ((TIFR0 & (1 << TOV0))!= 0) {
                     TIFR0 = (1 << TOV0);
                     teller++;
-                    if (teller % (cycles_per_seconde/2) == 0) {
-                        LED_2_PORT ^= (1 << LED_2);
-                    }
                 }
             }
-            LED_2_PORT |= (1 << LED_2); // is dit inderdaad uit???
+            LED_2_PORT ^= (1 << LED_2);
+            teller = 0;
         }
-    /*}
-    else {
-        tm1637_showNumber(0);
-    }*/
+    }
+    else { // Als gewenste aantal blokjes nog niet bereikt is 2 seconden wachten, en ondertussen 2 keer knipperen.
+        TCNT0 = 0;
+        while (teller < 2*cycles_per_seconde) {
+            if ((TIFR0 & (1 << TOV0))!= 0) {
+                TIFR0 = (1 << TOV0);
+                teller++;
+                if (teller % (cycles_per_seconde/2) == 0) {
+                    LED_2_PORT ^= (1 << LED_2);
+                }
+            }
+        }
+        LED_2_PORT |= (1 << LED_2);// Zorgen dat lampje uitstaat voor verder rijden
+    }
 }
 
 
 // infraroodsensor rechts detecteert blokje
 ISR(INT5_vect) {
-    //volatile int temp = 100;
-    //temp++;
-    int blokjes_stoppen = blokjes_stop(0,0);
-    int aantal_blokjes = blokjes_gedetecteerd(); // rekening houden met dat ie aan het begin meteen dit gaat doen!
-    //if (aantal_blokjes > 0) {
-        tm1637_showNumber(aantal_blokjes);
-        //tm1637_showNumber(temp);
-        motor_R(0);
-        motor_L(0);
-        volatile int teller = 0;
-        if (aantal_blokjes >= blokjes_stoppen) {
-            TCNT0 = 0;
-            while(1) {
-                while (teller < cycles_per_seconde) {
-                    if ((TIFR0 & (1 << TOV0))!= 0) {
-                        TIFR0 = (1 << TOV0);
-                        teller++;
-                    }
-                }
-                LED_2_PORT ^= (1 << LED_2);
-                teller = 0;
-            }
-        }
-        else {
-            TCNT0 = 0;
-            while (teller < 2*cycles_per_seconde) {
+    int blokjes_stoppen = blokjes_stop(0,0); // Kijkt hoeveel blokjes er geteld moeten worden
+    int aantal_blokjes = blokjes_gedetecteerd(0); // Past aantal getelde blokjes aan
+    tm1637_showNumber(aantal_blokjes);
+    motor_R(0); // Motor uitschakelen
+    motor_L(0); // Motor uitschakelen
+    volatile int teller = 0;
+    if (aantal_blokjes >= blokjes_stoppen) { // Als het gewenste aantal blokjes bereikt is langzaam knipperen en niet meer verder rijden
+        TCNT0 = 0;
+        while(1) {
+            while (teller < cycles_per_seconde) {
                 if ((TIFR0 & (1 << TOV0))!= 0) {
                     TIFR0 = (1 << TOV0);
                     teller++;
-                    if (teller % (cycles_per_seconde/2) == 0) {
-                        LED_2_PORT ^= (1 << LED_2);
-                    }
                 }
             }
-            LED_2_PORT |= (1 << LED_2); // is dit inderdaad uit???
+            LED_2_PORT ^= (1 << LED_2);
+            teller = 0;
         }
-    /*}
-    else {
-        tm1637_showNumber(0);
-    }*/
+    }
+    else { // Als gewenste aantal blokjes nog niet bereikt is 2 seconden wachten, en ondertussen 2 keer knipperen.
+        TCNT0 = 0;
+        while (teller < 2*cycles_per_seconde) {
+            if ((TIFR0 & (1 << TOV0))!= 0) {
+                TIFR0 = (1 << TOV0);
+                teller++;
+                if (teller % (cycles_per_seconde/2) == 0) {
+                    LED_2_PORT ^= (1 << LED_2);
+                }
+            }
+        }
+        LED_2_PORT |= (1 << LED_2); // Zorgen dat lampje uitstaat voor verder rijden
+    }
 }
 

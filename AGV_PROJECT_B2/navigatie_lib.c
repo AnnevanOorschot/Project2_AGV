@@ -4,102 +4,83 @@
 #include "sensor_lib.h"
 #include "navigatie_lib.h"
 #include "motor_lib.h"
-#include "test_func.h"
 
-float percentageSteering_R(int temp) //int diffAfstand
+//PWM van de motor R bijstellen om in het midden van het pad te rijden
+float percentageSteering_R(int diffAfstand)
 {
     static float helftPadBreedte = HALF_PAD;
     static float percentageAfwijking = 0;
-    if (helftPadBreedte < temp)  percentageAfwijking = 0;
-    else percentageAfwijking = (helftPadBreedte - temp)/helftPadBreedte;
+    if (helftPadBreedte < diffAfstand)  percentageAfwijking = 0;
+    else percentageAfwijking = (helftPadBreedte - diffAfstand)/helftPadBreedte;
     return percentageAfwijking;
 }
 
-float percentageSteering_L(int temp) //int diffAfstand
+//PWM van de motor L bijstellen om in het midden van het pad te rijden
+float percentageSteering_L(int diffAfstand)
 {
     static float helftPadBreedte = HALF_PAD;
     static float percentageAfwijking = 0;
-    if (helftPadBreedte < temp)  percentageAfwijking = 0;
-    else percentageAfwijking = (helftPadBreedte - temp)/helftPadBreedte;
+    if (helftPadBreedte < diffAfstand)  percentageAfwijking = 0;
+    else percentageAfwijking = (helftPadBreedte - diffAfstand)/helftPadBreedte;
     return percentageAfwijking;
 }
 
-void padNavigeren(int kant)
+//functie om in het midden van het pad te blijven rijden
+void padNavigeren(void)
 {
-    if (kant == LINKS)  ///TEST
-    {
-        LED_1_PORT &= ~(1 << LED_1);
-        LED_2_PORT &= ~(1 << LED_2);
-    }
-    int wandenWeg = 0;
     static unsigned int diffAfstand = 0;
     static unsigned int afstandL = 0;
-    static unsigned int afstand_R = 0;
-    //int wand = kant;
-    motor_config(VOORUIT, LINKS);
-    motor_config(VOORUIT, RECHTS);
+    static unsigned int afstandR = 0;
+    int wandenWeg = 0;
+    int count = 0;
 
     motor_L(1.0);
     motor_R(1.0);
-    while (wandenWeg < 2)
+    while (wandenWeg < 2)   //kijken of de wanden twee keer niet gedetecteerd worden
     {
         afstandL = ultrasoonAfstand_L();
-        afstandL = ultrasoonAfstand_L();
-        afstand_R = ultrasoonAfstand_R();
-        print_waarde(afstandL);
+        afstandR = ultrasoonAfstand_R();
 
-        if ((ultrasoonAfstand_R() > VERWEG) || (ultrasoonAfstand_L() > VERWEG) /*&& (wand == RECHTS)*/) wandenWeg++;
-        //else if ((ultrasoonAfstand_L() > VERWEG) /*&& (wand == LINKS)*/) wandenWeg++;
+        if ((ultrasoonAfstand_R() > VERWEG) || (ultrasoonAfstand_L() > VERWEG)) wandenWeg++;    //wanden worden niet gedetecteerd
         else
         {
             wandenWeg = 0;
-            if (afstandL > afstand_R)
+            if (afstandL > afstandR)
             {
-                diffAfstand = afstandL - afstand_R;
+                diffAfstand = afstandL - afstandR;
                 motor_L(1.0);
                 motor_R(percentageSteering_R(diffAfstand));
             }
 
-            if (afstand_R > afstandL)
+            if (afstandR > afstandL)
             {
-                diffAfstand = afstand_R - afstandL;
+                diffAfstand = afstandR - afstandL;
                 motor_L(percentageSteering_L(diffAfstand));
                 motor_R(1.0);
             }
         }
     }
-}
+    motor_R(1.0);
+    motor_L(1.0);
 
-
-void keren(int richting)
-{
-    int count = 0;
-    int kant = richting;
-    if (kant == RECHTS)
-    {
-        motor_L(1.7);
-        motor_R(FACTOR_KEREN);
-    }
-
-    else if (kant == LINKS)
-    {
-        motor_L(FACTOR_KEREN);
-        motor_R(1.7);
-    }
-
+    //voor bij het einde van het pad doorrijden
+    TCNT3 = RESET_VALUE_TIMER3;
+    TCCR3A = 0;
+    TCCR3B = (1 << CS32)|(0 << CS31)|(0 << CS30);
+    LED_1_PORT &= ~(1 << LED_1);
     while (1)
     {
         if (TIFR3 & (1 << TOV3))
         {
-            if (++count >= 38) {break;}
+            if (++count >= 6) {break;}
             TIFR3 = (1 << TOV3);
-            TCNT3 = RESET_VALUE_TIMER1;
+            TCNT3 = RESET_VALUE_TIMER3;
         }
     }
-    motor_L(0);
-    motor_R(0);
+    LED_2_PORT &= ~(1 << LED_2);
 }
 
+//functie voor het keren naar rechts
 void kerenR(void)
 {
     int teller = 0;
@@ -107,7 +88,7 @@ void kerenR(void)
     int temp = 0;
     while(temp == 0)
     {
-    TCNT3 = RESET_VALUE_TIMER1;
+    TCNT3 = RESET_VALUE_TIMER3;
     TCCR3A = 0;
     TCCR3B = (1 << CS32)|(0 << CS31)|(0 << CS30);
     TCNT2 = 6;
@@ -117,6 +98,8 @@ void kerenR(void)
     motor_R(1);
 
     count = 0;
+
+    //timers om bij te sturen
     while(1)
     {
         if (TIFR3 & (1 << TOV3))
@@ -126,7 +109,7 @@ void kerenR(void)
                 break;
             }
             TIFR3 = (1 << TOV3);
-            TCNT3 = RESET_VALUE_TIMER1;
+            TCNT3 = RESET_VALUE_TIMER3;
         }
     }
     motor_L(1);
@@ -138,7 +121,7 @@ void kerenR(void)
     {
         if (TIFR2 & (1 << TOV2))
         {
-            if (++count >= 400)     ///WP COUNT -> 300
+            if (++count >= 400)
             {
                 break;
             }
@@ -148,10 +131,10 @@ void kerenR(void)
     }
     teller++;
     if (ultrasoonAfstand_L() < 20) {temp = 1;}
-    //if (ultrasoonAfstand_R() < 20) {temp = 1;}
     }
 }
 
+//functie om te keren naar links bij een kleine bocht
 void kerenLKlein(void)
 {
     int teller = 0;
@@ -159,7 +142,7 @@ void kerenLKlein(void)
     int temp = 0;
     while(temp == 0)
     {
-    TCNT3 = RESET_VALUE_TIMER1;
+    TCNT3 = RESET_VALUE_TIMER3;
     TCCR3A = 0;
     TCCR3B = (1 << CS32)|(0 << CS31)|(0 << CS30);
     TCNT2 = 6;
@@ -169,6 +152,8 @@ void kerenLKlein(void)
     motor_R(0);
 
     count = 0;
+
+    //timer om bij te sturen
     while(1)
     {
         if (TIFR3 & (1 << TOV3))
@@ -178,7 +163,7 @@ void kerenLKlein(void)
                 break;
             }
             TIFR3 = (1 << TOV3);
-            TCNT3 = RESET_VALUE_TIMER1;
+            TCNT3 = RESET_VALUE_TIMER3;
         }
     }
     motor_L(1);
@@ -204,6 +189,7 @@ void kerenLKlein(void)
     }
 }
 
+//functie om te keren naar links bij een grote bocht
 void kerenLGroot(void)
 {
     int teller = 0;
@@ -211,7 +197,7 @@ void kerenLGroot(void)
     int temp = 0;
     while(temp == 0)
     {
-    TCNT3 = RESET_VALUE_TIMER1;
+    TCNT3 = RESET_VALUE_TIMER3;
     TCCR3A = 0;
     TCCR3B = (1 << CS32)|(0 << CS31)|(0 << CS30);
     TCNT2 = 6;
@@ -221,6 +207,7 @@ void kerenLGroot(void)
     motor_R(0);
 
     count = 0;
+    //timers om bij te sturen
     while(1)
     {
         if (TIFR3 & (1 << TOV3))
@@ -230,7 +217,7 @@ void kerenLGroot(void)
                 break;
             }
             TIFR3 = (1 << TOV3);
-            TCNT3 = RESET_VALUE_TIMER1;
+            TCNT3 = RESET_VALUE_TIMER3;
         }
     }
     motor_L(1);

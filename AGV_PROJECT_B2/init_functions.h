@@ -116,15 +116,10 @@
 #define NOODSTOP_DDR                    DDRD
 #define NOODSTOP_PIN                    PIND
 
-// TEST FUNC //
-#define SDI_BIT                         PH5    // Pin 8
-#define SFTCLK_BIT                      PH4    // Pin 7
-#define LCHCLK_BIT                      PG5    // Pin 4
-
 // OVERIG //
 
 #define TOP_VALUE                   40000UL
-#define RESET_VALUE_TIMER1          59286UL
+#define RESET_VALUE_TIMER3          59286UL
 
 #define TRUE    1
 #define FALSE   0
@@ -139,8 +134,8 @@ void init_noodstop(void);
 void init_function(void);
 void init_timer_PWM(void);
 void init_timer();
-void init_test(void);
 void init_display(void);
+void init_motor(void);
 
 
 #endif // INIT_FUNCTIONS_H_INCLUDED
