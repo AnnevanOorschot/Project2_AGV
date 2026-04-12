@@ -26,7 +26,7 @@ float percentageSteering_L(int temp) //int diffAfstand
 
 void padNavigeren(int kant)
 {
-    if (kant == LINKS)
+    if (kant == LINKS)  ///TEST
     {
         LED_1_PORT &= ~(1 << LED_1);
         LED_2_PORT &= ~(1 << LED_2);
@@ -41,7 +41,6 @@ void padNavigeren(int kant)
 
     motor_L(1.0);
     motor_R(1.0);
-    //print_turd();
     while (wandenWeg < 2)
     {
         afstandL = ultrasoonAfstand_L();
@@ -139,7 +138,7 @@ void kerenR(void)
     {
         if (TIFR2 & (1 << TOV2))
         {
-            if (++count >= 300)
+            if (++count >= 400)     ///WP COUNT -> 300
             {
                 break;
             }
@@ -191,7 +190,7 @@ void kerenLKlein(void)
     {
         if (TIFR2 & (1 << TOV2))
         {
-            if (++count >= 300)
+            if (++count >= 400)     ///WP COUNT -> 300
             {
                 break;
             }
@@ -243,7 +242,7 @@ void kerenLGroot(void)
     {
         if (TIFR2 & (1 << TOV2))
         {
-            if (++count >= 350)
+            if (++count >= 350)     ///WP COUNT -> 350
             {
                 break;
             }

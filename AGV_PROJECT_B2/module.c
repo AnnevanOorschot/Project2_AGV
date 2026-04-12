@@ -83,10 +83,13 @@ int blokjes_stop(int taak, int instel) {
 
 // infraroodsensor links detecteert blokje
 ISR(INT4_vect) {
+    //volatile int temp = 0;
+    //temp++;
     int blokjes_stoppen = blokjes_stop(0,0);
     int aantal_blokjes = blokjes_gedetecteerd(); // rekening houden met dat ie aan het begin meteen dit gaat doen!
     //if (aantal_blokjes > 0) {
         tm1637_showNumber(aantal_blokjes);
+        //tm1637_showNumber(temp);
         motor_R(0);
         motor_L(0);
         volatile int teller = 0;
@@ -125,10 +128,13 @@ ISR(INT4_vect) {
 
 // infraroodsensor rechts detecteert blokje
 ISR(INT5_vect) {
+    //volatile int temp = 100;
+    //temp++;
     int blokjes_stoppen = blokjes_stop(0,0);
     int aantal_blokjes = blokjes_gedetecteerd(); // rekening houden met dat ie aan het begin meteen dit gaat doen!
     //if (aantal_blokjes > 0) {
         tm1637_showNumber(aantal_blokjes);
+        //tm1637_showNumber(temp);
         motor_R(0);
         motor_L(0);
         volatile int teller = 0;

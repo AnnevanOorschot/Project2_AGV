@@ -48,6 +48,9 @@ void init_infrarood_sensor(void)
     INFRAROOD_MODULE_ENABLE_R_PORT &= ~(1 << INFRAROOD_MODULE_ENABLE_R);
     INFRAROOD_MODULE_ENABLE_L_PORT &= ~(1 << INFRAROOD_MODULE_ENABLE_L);
 
+    //INFRAROOD_MODULE_L_PORT |= (1 << INFRAROOD_MODULE_L);
+    //INFRAROOD_MODULE_R_PORT |= (1 << INFRAROOD_MODULE_R);
+
     //interrupt Infraroodsensoren module, falling edge
     EICRB |= (1 << ISC41);
     EICRB &= ~(1 << ISC40);

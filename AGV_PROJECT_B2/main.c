@@ -24,81 +24,79 @@
 int main(void)
 {
     init_function();
-    DDRB |= (1 << PB7);
-    DDRB |= (1 << PB6);
-    DDRB |= (1 << PB5);
-    DDRB |= (1 << PB4);
-
-    PORTB |= (1 << PB7);
-    PORTB |= (1 << PB6);
-    PORTB |= (1 << PB5);
-    PORTB |= (1 << PB4);
-
 
     switch(programma_keuze())
     {
     case rechtdoor:
-        {
-            padNavigeren(RECHTS);
-            //PORTB &= ~(1 << PB7);
-            //PORTB |= (1 << PB6);
-            //PORTB |= (1 << PB5);
-            //PORTB |= (1 << PB4);
-            break;
-        }
-    case keren_L:
-        {
-            padNavigeren(LINKS);
-            keren(LINKS);
-            padNavigeren(RECHTS);
-            //PORTB |= (1 << PB7);
-            //PORTB &= ~(1 << PB6);
-            //PORTB |= (1 << PB5);
-            //PORTB |= (1 << PB4);
-            break;
-        }
-    case keren_R:
-        {
-            padNavigeren(RECHTS);
-            keren(RECHTS);
-            padNavigeren(LINKS);
-            //PORTB &= ~(1 << PB7);
-            //PORTB &= ~(1 << PB6);
-            //PORTB |= (1 << PB5);
-            //PORTB |= (1 << PB4);
-            break;
-        }
-    case pakketTellen:
-        {
-            INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
-            INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
-            blokjes_stop(5, 1);
-            padNavigeren(RECHTS);
-            //PORTB |= (1 << PB7);
-            //PORTB |= (1 << PB6);
-            //PORTB &= ~(1 << PB5);
-            //PORTB |= (1 << PB4);
-            break;
-        }
-    case parkour:
-        {
-            INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
-            INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
-            blokjes_stop(15, 1);
-            padNavigeren(RECHTS);
-            keren(RECHTS);
-            padNavigeren(LINKS);
-            keren(LINKS);
-            padNavigeren(RECHTS);
-            //PORTB &= ~(1 << PB7);
-            //PORTB |= (1 << PB6);
-            //PORTB &= ~(1 << PB5);
-            //PORTB |= (1 << PB4);
-            break;
-        }
+    {
+        padNavigeren(RECHTS);
+        //PORTB &= ~(1 << PB7);
+        //PORTB |= (1 << PB6);
+        //PORTB |= (1 << PB5);
+        //PORTB |= (1 << PB4);
+        break;
     }
-    /*
-    motor_config(VOORUIT,LINKS);
+    case keren_R:
+    {
+        padNavigeren(RECHTS);
+        motor_L(1);
+        motor_R(1);
+        _delay_ms(600);         //NOG AANPASSEN
+        kerenLKlein();
+
+        LED_1_PORT |=  (1 << LED_1);
+        LED_2_PORT |=  (1 << LED_2);
+
+        padNavigeren(LINKS);
+        //PORTB &= ~(1 << PB7);
+        //PORTB &= ~(1 << PB6);
+        //PORTB |= (1 << PB5);
+        //PORTB |= (1 << PB4);
+        break;
+    }
+    case keren_L:
+    {
+        padNavigeren(LINKS);
+        keren(LINKS);
+        padNavigeren(RECHTS);
+        //PORTB |= (1 << PB7);
+        //PORTB &= ~(1 << PB6);
+        //PORTB |= (1 << PB5);
+        //PORTB |= (1 << PB4);
+        break;
+    }
+    case pakketTellen:
+    {
+        INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
+        INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
+        blokjes_stop(5, 1);
+        while(1){
+        padNavigeren(RECHTS);}
+        //PORTB |= (1 << PB7);
+        //PORTB |= (1 << PB6);
+        //PORTB &= ~(1 << PB5);
+        //PORTB |= (1 << PB4);
+        break;
+    }
+    case parkour:
+    {
+        INFRAROOD_MODULE_ENABLE_R_PORT |= (1 << INFRAROOD_MODULE_ENABLE_R);
+        INFRAROOD_MODULE_ENABLE_L_PORT |= (1 << INFRAROOD_MODULE_ENABLE_L);
+        blokjes_stop(15, 1);
+        padNavigeren(RECHTS);
+        keren(RECHTS);
+        padNavigeren(LINKS);
+        keren(LINKS);
+        padNavigeren(RECHTS);
+        //PORTB &= ~(1 << PB7);
+        //PORTB |= (1 << PB6);
+        //PORTB &= ~(1 << PB5);
+        //PORTB |= (1 << PB4);
+        break;
+    }
+    }
+
+    /*motor_config(VOORUIT,LINKS);
     motor_config(VOORUIT,RECHTS);
 
     padNavigeren(RECHTS);
@@ -115,8 +113,8 @@ int main(void)
     motor_R(1.0);
     _delay_ms(500);         //NOG AANPASSEN
     kerenLGroot();
-    padNavigeren(RECHTS);
-    */
+    padNavigeren(RECHTS);*/
+    while(1);
     return 0;
 }
 
